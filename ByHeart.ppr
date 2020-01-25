@@ -1,0 +1,101 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.CompileOnBackground=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+DefaultDir=C:\Webservers\ByHeart\www
+DefaultCP=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+HTServer=localhost
+Extensions=*.*
+[Project tree]
+ByHeart
+	+www
+		-Pages
+			-ByHeart
+				-PhpIni
+					www\Pages\ByHeart\PhpIni\iniHtmlBegin.php
+					www\Pages\ByHeart\PhpIni\iniHtmlEnd.php
+					www\Pages\ByHeart\PhpIni\iniPhpIni.php
+					www\Pages\ByHeart\PhpIni\PhpIni.php
+		-TDoorTryer
+			www\TDoorTryer\DoorTryerMessage.php
+			www\TDoorTryer\DoorTryerPage.php
+		-TPhpPrown
+			www\TPhpPrown\CtrlArray.php
+			www\TPhpPrown\CtrlNumber.php
+			www\TPhpPrown\Findes.php
+			www\TPhpPrown\getAbove.php
+			www\TPhpPrown\getSiteDevice.php
+			www\TPhpPrown\getTranslit.php
+			www\TPhpPrown\iniConstMem.php
+			www\TPhpPrown\iniErrMessage.php
+			www\TPhpPrown\iniRegExp.php
+			www\TPhpPrown\isCalcInBrowser.php
+			www\TPhpPrown\isCookie.php
+			www\TPhpPrown\isCountArrays.php
+			www\TPhpPrown\isSubstrInUri.php
+			www\TPhpPrown\iViewArray.php
+			www\TPhpPrown\LICENSE
+			www\TPhpPrown\MakeCookie.php
+			www\TPhpPrown\MakeParm.php
+			www\TPhpPrown\MakeRegExp.php
+			www\TPhpPrown\MakeSession.php
+			www\TPhpPrown\MakeType.php
+			www\TPhpPrown\MakeUserError.php
+			www\TPhpPrown\Mobile_Detect.php
+			www\TPhpPrown\NoZero.php
+			www\TPhpPrown\Number1string.php
+			www\TPhpPrown\Number2string.php
+			www\TPhpPrown\PullArray.php
+			www\TPhpPrown\SqueezeArrays.php
+			www\TPhpPrown\StringFilters.php
+			www\TPhpPrown\TestNumerical.php
+			www\TPhpPrown\ViewGlobal.php
+			www\TPhpPrown\ViewSimpleArray.php
+			www\TPhpPrown\пример_регекс.txt
+			www\TPhpPrown\регекс_тест.html
+		www\favicon.ico
+		www\includErrs.php
+		www\index.php
+		www\log.txt
+		www\Main.php
+		www\MainDoorTry.php
+[Open project files]
+0=www\index.php
+1=www\Main.php
+2=www\Pages\ByHeart\PhpIni\PhpIni.php
+3=www\Pages\ByHeart\PhpIni\iniPhpIni.php
+4=www\Pages\ByHeart\PhpIni\iniHtmlBegin.php
+5=www\Pages\ByHeart\PhpIni\iniHtmlEnd.php
+6=www\MainDoorTry.php
+[Selected Project Files]
+Main=
+Selected=www\Main.php
+[www\index.php]
+TopLine=3
+Caret=1,17
+[www\Main.php]
+TopLine=3
+Caret=39,26
+[www\Pages\ByHeart\PhpIni\PhpIni.php]
+TopLine=1
+Caret=1,26
+[www\Pages\ByHeart\PhpIni\iniPhpIni.php]
+TopLine=11
+Caret=37,15
+[www\Pages\ByHeart\PhpIni\iniHtmlBegin.php]
+TopLine=35
+Caret=1,1
+[www\Pages\ByHeart\PhpIni\iniHtmlEnd.php]
+TopLine=1
+Caret=1,1
+[www\MainDoorTry.php]
+TopLine=3
+Caret=1,24

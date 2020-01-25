@@ -17,13 +17,7 @@
  * register_shutdown_function, через try-catch-error обрабатываются исключения
 **/
 
-/**
- * ПОМНИТЬ(16.02.2019)! Если в коде сайта включается своя обработка исключений,
- * то управление выводом ошибок display_errors на сайте NIC.RU отключается и
- * работает только error_reporting (нужно разрешить обработку всех ошибок)
-**/
-
-require_once $SiteRoot."/TDoorTryer/DoorTryerMessage.php";
+require_once $_SERVER['DOCUMENT_ROOT']."/TDoorTryer/DoorTryerMessage.php";
 
 // ------------------------------------------- Массив зарегистрированных ошибок
 // 1 - фатальная ошибка во время выполнения

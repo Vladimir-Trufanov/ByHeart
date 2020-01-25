@@ -1,1 +1,8 @@
 [25-Jan-2020 07:07:08 Asia/Kuwait] PHP Fatal error:  require_once(): Failed opening required 'iGetAbove.php' (include_path='.;C:\php\pear') in C:\Webservers\ByHeart\www\Main.php on line 15
+[25-Jan-2020 20:53:31 Asia/Kuwait] PHP Fatal error:  require_once(): Failed opening required 'C:\Webservers\ByHeart\www/MainDoorTry.php' (include_path='.;C:\php\pear') in C:\Webservers\ByHeart\www\index.php on line 25
+[25-Jan-2020 20:53:31 Asia/Kuwait] PHP Fatal error:  require_once(): Failed opening required 'C:\Webservers\ByHeart\www/MainDoorTry.php' (include_path='.;C:\php\pear') in C:\Webservers\ByHeart\www\index.php on line 25
+[25-Jan-2020 20:54:43 Asia/Kuwait] PHP Fatal error:  require_once(): Failed opening required 'C:\Webservers\ByHeart\www/includErrs.php' (include_path='.;C:\php\pear') in C:\Webservers\ByHeart\www\MainDoorTry.php on line 29
+[25-Jan-2020 20:56:09 Asia/Kuwait] PHP Fatal error:  require_once(): Failed opening required 'C:\Webservers/TPhpPrown/MakeRegExp.php' (include_path='.;C:\php\pear') in C:\Webservers\ByHeart\www\includErrs.php on line 222
+[25-Jan-2020 22:52:10 Asia/Kuwait] PHP Parse error:  syntax error, unexpected '$page' (T_VARIABLE), expecting ',' or ';' in C:\Webservers\ByHeart\www\Main.php on line 48
+[25-Jan-2020 23:18:13 Asia/Kuwait] PHP Fatal error:  require_once(): Failed opening required '/Pages/ByHeart/PhpIni/PhpIni.php' (include_path='.;C:\php\pear') in C:\Webservers\ByHeart\www\Main.php on line 26
+[25-Jan-2020 23:19:34 Asia/Kuwait] PHP Fatal error:  require_once(): Failed opening required 'C:\Webservers/TPhpPrown/MakeRegExp.php' (include_path='.;C:\php\pear') in C:\Webservers\ByHeart\www\includErrs.php on line 222

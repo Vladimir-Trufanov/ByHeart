@@ -11,18 +11,13 @@
 //                                                   Дата создания:  24.01.2020
 // Copyright © 2020 tve                              Посл.изменение: 24.01.2020
 
-// Инициализируем корневой каталог сайта
-$SiteRoot=$_SERVER['DOCUMENT_ROOT'];
 // Подключаем сайт сбора сообщений об ошибках/исключениях и формирования 
 // страницы с выводом сообщений, а также комментариев для PHP5-PHP7
-require_once $SiteRoot."/TDoorTryer/DoorTryerPage.php";
-
+require_once $_SERVER['DOCUMENT_ROOT']."/TDoorTryer/DoorTryerPage.php";
 try 
 {
    // Запускаем сценарий сайта
-   require_once $SiteRoot."/Main.php";
-   // Запускаем примеры ошибок и исключений
-   //require_once $SiteRoot."/MainDoorTry.php";
+   require_once $_SERVER['DOCUMENT_ROOT']."/Main.php";
 }
 catch (E_EXCEPTION $e) 
 {
