@@ -1,0 +1,58 @@
+﻿#include <Stepper.h>
+const int stepsPerRevolution=200;  //  количество шагов в полном обороте двигателя
+Stepper myStepper(stepsPerRevolution,8,9,10,11);
+
+int minangle=15;  // угол поворота на 1 нажатие (шаг камеры)
+struct KEYS    // структура для хранения статусов клавиш
+{
+  int button;      // нажатая кнопка
+  long millisbutton[7];      // millis для button 
+};
+
+void setup() {;}
+
+void loop() {
+  int valbutton;
+  // опрос клавиатуры
+   valbutton=analogRead(A0);
+   if(valbutton<1000)
+     {buttonClick2(buttonClick1(valbutton));}
+}
+// обработка нажатия кнопки
+int buttonClick1(int val)
+ {
+  if(val>650) {KEYS1.button=1;return 1;} 
+  if(val>600) {KEYS1.button=2;return 2;} 
+  if(val>530) {KEYS1.button=3;return 3;} 
+  if(val>450) {KEYS1.button=4;return 4;} 
+  if(val>300) {KEYS1.button=5;return 5;} 
+  if(val>200) {KEYS1.button=6;return 6;}
+  return 0;  
+  }
+  
+   void buttonClick2(int val)
+ {
+   if(millis()-KEYS1.millisbutton[val]<100)  // проверка на дребезг
+     return;
+   KEYS1.millisbutton[val]=millis();
+   KEYS1.button=val;
+   switch(val) {
+    case 1:   // left
+        myStepper.step(stepsPerRevolution*minangle/360*(-1));
+        break; 
+    case 2:     // up
+       break; 
+    case 3:     //down
+       break; 
+    case 4:     // right
+        myStepper.step(stepsPerRevolution*minangle/360);
+        break; 
+    case 5:     // white
+       break; 
+    case 6:     //red 
+        // код на нажатие кнопки камеры
+        break; 
+    default: 
+        break; 
+   }   
+ }

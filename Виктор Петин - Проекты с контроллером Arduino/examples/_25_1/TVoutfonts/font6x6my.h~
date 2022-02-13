@@ -1,0 +1,8 @@
+#ifndef FONT7X7MY_H
+#define FONT7X7MY_H
+
+#include <avr/pgmspace.h>
+
+extern const unsigned char font7x7my[];
+
+#endif

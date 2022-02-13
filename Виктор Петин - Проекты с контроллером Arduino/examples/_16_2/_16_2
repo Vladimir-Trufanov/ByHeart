@@ -1,0 +1,88 @@
+// inslude the SPI library:
+#include <SPI.h>
+// set pin 8 as the slave select for the digital pot:
+const int displayPin = 8;
+
+// библиотека для прерываний по таймеру
+#include <MsTimer2.h> 
+int offset=0;
+// библиотека для ультразвукового датчика
+#include <Ultrasonic.h> 
+
+Ultrasonic ultrasonic1(4,5);  // красный
+Ultrasonic ultrasonic2(9,6);  // зеленый
+Ultrasonic ultrasonic3(2,3);  // синий
+// структура для хранения значений R, G, B
+struct RGB    
+{
+  int r;      // позиция R
+  int g;      // позиция G
+  int b;      // позиция B
+  int offset; // кол-во ШИМ-циклов
+};
+RGB RGB1={0,0,0,0};
+
+void setup() {
+  
+  Serial.begin(115200);
+  Serial.println("start");
+  Serial.println("led matrix");
+  // set the slaveSelectPin as an output:
+  pinMode (displayPin, OUTPUT);
+  // initialize SPI:
+  SPI.begin(); 
+  // запуск прерывания по таймеру
+  MsTimer2::set(1, showDisplay); //  
+  MsTimer2::start(); 
+  //clearDisplay();
+  Serial.println("led matrix");
+  
+}
+int dist=0;
+void loop() {
+   delay(100); 
+   // для красного
+   dist = (int)ultrasonic1.Ranging(CM);  // считать для R
+   //Serial.print("dist.r=");
+   //Serial.println(dist);
+   if(dist>0 && dist<20)  
+     {RGB1.r=dist;}
+   // для зеленого
+   dist = (int)ultrasonic2.Ranging(CM);  // считать для R
+   //Serial.print("dist.g=");
+   //Serial.println(dist);
+   if(dist>0 && dist<20)  
+     {RGB1.g=dist;}
+   // для синего
+   dist = (int)ultrasonic3.Ranging(CM);  // считать для R
+   //Serial.print("dist.b=");
+   //Serial.println(dist);
+   if(dist>0 && dist<20)  
+     {RGB1.b=dist;}
+      
+ 
+}
+// обработка прырывания по таймеру
+// динамическая индикация
+void showDisplay() {
+   // инкремент счетчика
+   RGB1.offset=max(2,(RGB1.offset+1)%15);
+   digitalWrite(displayPin,LOW);
+   // вывод данных
+   if(RGB1.b<RGB1.offset)      // blue
+     SPI.transfer(B00000000);   
+   else
+     SPI.transfer(B11111111);   
+   SPI.transfer(B11111111);   // анод
+   if(RGB1.g<RGB1.offset)      // green
+     SPI.transfer(B00000000);   
+   else
+     SPI.transfer(B11111111);   
+   if(RGB1.r<RGB1.offset)     //red
+     SPI.transfer(B00000000);   
+   else
+     SPI.transfer(B11111111);   
+   // take the SS pin high 
+   digitalWrite(displayPin,HIGH); 
+
+}
