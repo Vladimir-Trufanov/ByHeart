@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+
+<svg
+   viewBox="0 0 65.223 79.636"
+   height="1.10606in"
+   width="0.905875in"
+   id="schematic"
+   version="1.1"
+   x="0px"
+   y="0px"
+   enable-background="new 0 0 65.223 79.636"
+   gorn="0"
+   xml:space="preserve"
+   sodipodi:docname="schematic.PL2303_USBtoTTL.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs253" /><sodipodi:namedview
+   id="namedview251"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:document-units="in"
+   showgrid="false"
+   inkscape:zoom="7.5154149"
+   inkscape:cx="43.510572"
+   inkscape:cy="75.112287"
+   inkscape:window-width="1920"
+   inkscape:window-height="991"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="schematic" />
+  <desc
+   id="desc2">
+    <referenceFile>USB-TTL_UART_schematic.svg</referenceFile>
+  </desc>
+  <rect
+   fill="none"
+   height="72"
+   width="49.956"
+   stroke-width="0.9"
+   id="outline_1_"
+   x="7.648"
+   gorn="0.1"
+   stroke="#000000" />
+  <g
+   id="pins_1_"
+   gorn="0.2">
+    
+    <rect
+   fill="none"
+   height="0.0014"
+   width="0.01513"
+   stroke-width="0"
+   id="connector13terminal"
+   x="65.101402"
+   y="35.999298"
+   gorn="0.2.1"
+   stroke="none" />
+    
+    <rect
+   fill="none"
+   height="0.0014"
+   width="0.01513"
+   stroke-width="0"
+   id="connector12terminal"
+   x="65.101402"
+   y="43.200298"
+   gorn="0.2.3"
+   stroke="none" />
+    
+    <rect
+   fill="none"
+   height="0.0014"
+   width="0.01513"
+   stroke-width="0"
+   id="connector11terminal"
+   x="65.101402"
+   y="50.3993"
+   gorn="0.2.5"
+   stroke="none" />
+    
+    <rect
+   fill="none"
+   height="0.0014"
+   width="0.01513"
+   stroke-width="0"
+   id="connector10terminal"
+   x="65.101402"
+   y="57.5993"
+   gorn="0.2.7"
+   stroke="none" />
+    
+    <rect
+   fill="none"
+   height="0.015068"
+   width="0.0014"
+   stroke-width="0"
+   id="connector9terminal"
+   x="50.4673"
+   y="79.483498"
+   gorn="0.2.9"
+   stroke="none" />
+    <line
+   fill="none"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   id="connector8pin"
+   y1="72.207207"
+   gorn="0.2.10"
+   y2="79.041206"
+   x1="46.923618"
+   stroke="#545454"
+   x2="46.923618" />
+    <rect
+   fill="none"
+   height="0.015068"
+   width="0.0014"
+   stroke-width="0"
+   id="connector8terminal"
+   x="43.330299"
+   y="79.483498"
+   gorn="0.2.11"
+   stroke="none" />
+    <line
+   fill="none"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   id="connector7pin"
+   y1="72.207207"
+   gorn="0.2.12"
+   y2="79.041206"
+   x1="39.787617"
+   stroke="#545454"
+   x2="39.787617" />
+    <rect
+   fill="none"
+   height="0.015068"
+   width="0.0014"
+   stroke-width="0"
+   id="connector7terminal"
+   x="36.194302"
+   y="79.483498"
+   gorn="0.2.13"
+   stroke="none" />
+    <line
+   fill="none"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   id="connector6pin"
+   y1="72.207207"
+   gorn="0.2.14"
+   y2="79.041206"
+   x1="32.651615"
+   stroke="#545454"
+   x2="32.651615" />
+    <rect
+   fill="none"
+   height="0.015068"
+   width="0.0014"
+   stroke-width="0"
+   id="connector6terminal"
+   x="29.0583"
+   y="79.483498"
+   gorn="0.2.15"
+   stroke="none" />
+    <line
+   fill="none"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   id="connector5pin"
+   y1="72.207207"
+   gorn="0.2.16"
+   y2="79.041206"
+   x1="25.514616"
+   stroke="#545454"
+   x2="25.514616" />
+    <rect
+   fill="none"
+   height="0.015068"
+   width="0.0014"
+   stroke-width="0"
+   id="connector5terminal"
+   x="21.921301"
+   y="79.483498"
+   gorn="0.2.17"
+   stroke="none" />
+    <line
+   fill="none"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   id="connector4pin"
+   y1="72.207207"
+   gorn="0.2.18"
+   y2="79.041206"
+   x1="18.378616"
+   stroke="#545454"
+   x2="18.378616" />
+    <rect
+   fill="none"
+   height="0.015068"
+   width="0.0014"
+   stroke-width="0"
+   id="connector4terminal"
+   x="14.7853"
+   y="79.483498"
+   gorn="0.2.19"
+   stroke="none" />
+    
+    <rect
+   fill="none"
+   height="0.0014"
+   width="0.015072"
+   stroke-width="0"
+   id="connector3terminal"
+   x="0.150464"
+   y="57.617298"
+   gorn="0.2.21"
+   stroke="none" />
+    
+    <rect
+   fill="none"
+   height="0.0014"
+   width="0.015126"
+   stroke-width="0"
+   id="connector2terminal"
+   x="0.150437"
+   y="50.3993"
+   gorn="0.2.23"
+   stroke="none" />
+    
+    <rect
+   fill="none"
+   height="0.0014"
+   width="0.015194"
+   stroke-width="0"
+   id="connector1terminal"
+   x="0.130403"
+   y="43.2183"
+   gorn="0.2.25"
+   stroke="none" />
+    
+    <rect
+   fill="none"
+   height="0.0014"
+   width="0.015188"
+   stroke-width="0"
+   id="connector0terminal"
+   x="0.117406"
+   y="36.019299"
+   gorn="0.2.27"
+   stroke="none" />
+  </g>
+  <g
+   id="pin_numbers"
+   gorn="0.3">
+    <g
+   transform="translate(59.9678,34.7236)"
+   id="g39">
+      <g
+   id="g37">
+        <g
+   id="g35">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(59.9678,41.9268)"
+   id="g46">
+      <g
+   id="g44">
+        <g
+   id="g42">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(59.9678,49.1143)"
+   id="g53">
+      <g
+   id="g51">
+        <g
+   id="g49">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(59.9678,56.3018)"
+   id="g60">
+      <g
+   id="g58">
+        <g
+   id="g56">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(46.5518,76.001)"
+   id="g67">
+      <g
+   id="g65">
+        <g
+   id="g63">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(40.8125,76.001)"
+   id="g74">
+      <g
+   id="g72">
+        <g
+   id="g70">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(33.6953,76.001)"
+   id="g81">
+      <g
+   id="g79">
+        <g
+   id="g77">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="matrix(1.026,0,0,1,26.543,76.001)"
+   id="g88">
+      <g
+   id="g86">
+        <g
+   id="g84">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="matrix(1.026,0,0,1,19.4268,76.001)"
+   id="g95">
+      <g
+   id="g93">
+        <g
+   id="g91">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(10.9688,76.001)"
+   id="g102">
+      <g
+   id="g100">
+        <g
+   id="g98">
+          <text
+   display="none"
+   fill="#545454"
+   font-family="DroidSans"
+   id="_x35__3_"
+   font-size="2.5px"
+   gorn="0.3.9.0.0.0">34</text>
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(12.3457,76.001)"
+   id="g109">
+      <g
+   id="g107">
+        <g
+   id="g105">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(3.4053,56.3252)"
+   id="g116">
+      <g
+   id="g114">
+        <g
+   id="g112">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(3.4053,49.126)"
+   id="g123">
+      <g
+   id="g121">
+        <g
+   id="g119">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(3.4053,41.8994)"
+   id="g130">
+      <g
+   id="g128">
+        <g
+   id="g126">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(3.4053,34.7002)"
+   id="g137">
+      <g
+   id="g135">
+        <g
+   id="g133">
+          
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+   id="pin_labels"
+   gorn="0.4">
+    <g
+   transform="translate(49.8848,58.7197)"
+   id="g145">
+      <g
+   id="g143">
+        <g
+   id="g141">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(49.8955,51.5205)"
+   id="g152">
+      <g
+   id="g150">
+        <g
+   id="g148">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(49.4297,44.3213)"
+   id="g159">
+      <g
+   id="g157">
+        <g
+   id="g155">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(48.8945,37.1182)"
+   id="g166">
+      <g
+   id="g164">
+        <g
+   id="g162">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="rotate(-90,60.4453,9.0986)"
+   id="g173">
+      <g
+   id="g171">
+        <g
+   id="g169">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="rotate(-90,56.8774,12.6665)"
+   id="g180">
+      <g
+   id="g178">
+        <g
+   id="g176">
+          <text
+   fill="#545454"
+   font-family="DroidSans"
+   id="pin9-RxD"
+   font-size="3px"
+   gorn="0.4.5.0.0.0"
+   y="-10.478463"
+   x="-0.099794611">RxD</text>
+        </g>
+      </g>
+    </g>
+    <g
+   transform="rotate(-90,53.3086,16.2344)"
+   id="g187">
+      <g
+   id="g185">
+        <g
+   id="g183">
+          <text
+   fill="#545454"
+   font-family="DroidSans"
+   id="pin8-TxD"
+   font-size="3px"
+   gorn="0.4.6.0.0.0"
+   y="-10.777847"
+   x="-0.099794492">TxD</text>
+        </g>
+      </g>
+    </g>
+    <g
+   transform="rotate(-90,49.74025,19.80275)"
+   id="g194">
+      <g
+   id="g192">
+        <g
+   id="g190">
+          <text
+   fill="#545454"
+   font-family="DroidSans"
+   id="pin7-_x2B_5V"
+   font-size="3px"
+   gorn="0.4.7.0.0.0"
+   y="17.863285"
+   x="-0.19958977">+5V</text>
+        </g>
+      </g>
+    </g>
+    <g
+   transform="rotate(-90,46.1731,23.3718)"
+   id="g201">
+      <g
+   id="g199">
+        <g
+   id="g197">
+          <text
+   fill="#545454"
+   font-family="DroidSans"
+   id="pin6-GND"
+   font-size="3px"
+   gorn="0.4.8.0.0.0"
+   y="18.162668"
+   x="-0.19958977">GND</text>
+        </g>
+      </g>
+    </g>
+    <g
+   transform="rotate(-90,42.60495,26.93995)"
+   id="g208">
+      <g
+   id="g206">
+        <g
+   id="g204">
+          <text
+   fill="#545454"
+   font-family="DroidSans"
+   id="pin5-3V3"
+   font-size="3px"
+   gorn="0.4.9.0.0.0"
+   y="3.7922056">3V3</text>
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(10.376,58.79)"
+   id="g215">
+      <g
+   id="g213">
+        <g
+   id="g211">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="matrix(1.0002,0,0,1,10.376,51.5918)"
+   id="g222">
+      <g
+   id="g220">
+        <g
+   id="g218">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="translate(10.376,44.4619)"
+   id="g229">
+      <g
+   id="g227">
+        <g
+   id="g225">
+          
+        </g>
+      </g>
+    </g>
+    <g
+   transform="matrix(1.0021,0,0,1,10.377,37.1899)"
+   id="g236">
+      <g
+   id="g234">
+        <g
+   id="g232">
+          
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+   transform="matrix(1 0 0 1 28.7051 34.6953)"
+   id="g248">
+    <g
+   id="g246">
+      <g
+   id="g244">
+        <g
+   id="Name_1_"
+   gorn="0.5.0.0.0">
+          <text
+   font-family="DroidSans"
+   x="0"
+   font-size="4.25"
+   y="0"
+   id="text239">USB </text>
+          <text
+   font-family="DroidSans"
+   x="-5.268"
+   font-size="4.25"
+   y="5.1"
+   id="text241">TTL/UART</text>
+        </g>
+      </g>
+    </g>
+  </g>
+<text
+   xml:space="preserve"
+   style="font-weight:bold;font-size:4px;line-height:1.25;font-family:OCRA;-inkscape-font-specification:'OCRA Bold';stroke-width:0.75"
+   x="14.983999"
+   y="77.115837"
+   id="text4999"><tspan
+     sodipodi:role="line"
+     id="tspan4997"
+     style="font-size:4px;stroke-width:0.75"
+     x="14.983999"
+     y="77.115837">1</tspan></text><text
+   xml:space="preserve"
+   style="font-weight:bold;font-size:4px;line-height:1.25;font-family:OCRA;-inkscape-font-specification:'OCRA Bold';stroke-width:0.75"
+   x="22.112"
+   y="77.115837"
+   id="text12155"><tspan
+     sodipodi:role="line"
+     id="tspan12153"
+     style="font-size:4px;stroke-width:0.75"
+     x="22.112"
+     y="77.115837">2</tspan></text><text
+   xml:space="preserve"
+   style="font-weight:bold;font-size:4px;line-height:1.25;font-family:OCRA;-inkscape-font-specification:'OCRA Bold';stroke-width:0.75"
+   x="29.239901"
+   y="77.141296"
+   id="text13389"><tspan
+     sodipodi:role="line"
+     id="tspan13387"
+     style="font-size:4px;stroke-width:0.75"
+     x="29.239901"
+     y="77.141296">3</tspan></text><text
+   xml:space="preserve"
+   style="font-weight:bold;font-size:4px;line-height:1.25;font-family:OCRA;-inkscape-font-specification:'OCRA Bold';stroke-width:0.75"
+   x="36.272442"
+   y="77.114838"
+   id="text14349"><tspan
+     sodipodi:role="line"
+     id="tspan14347"
+     style="font-size:4px;stroke-width:0.75"
+     x="36.272442"
+     y="77.114838">4</tspan></text><text
+   xml:space="preserve"
+   style="font-weight:bold;font-size:4px;line-height:1.25;font-family:OCRA;-inkscape-font-specification:'OCRA Bold';stroke-width:0.75"
+   x="43.49612"
+   y="77.115837"
+   id="text15013"><tspan
+     sodipodi:role="line"
+     id="tspan15011"
+     style="font-size:4px;stroke-width:0.75"
+     x="43.49612"
+     y="77.115837">5</tspan></text></svg>
