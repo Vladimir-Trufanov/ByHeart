@@ -4,6 +4,7 @@
 
 <link rel="stylesheet" type="text/css" href="style.css">
 
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 <style>
 razdel{color:green; font-weight:700; font-size:30px}
