@@ -10,8 +10,15 @@ yellow { color: yellow }
 
 ### <red>Дистрибутивы и их тестирование (каталог Https)</red>
 
-Содержимое каталога:
+<span style="color:yellow">Содержимое каталога:</span>
 
+``` diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 
 
 ### <razdel>Транзисторы<razdel>
