@@ -1,3 +1,6 @@
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
 # ByHeart
 
 <style>
@@ -21,6 +24,10 @@ yellow { color: yellow }
 # text in gray
 @@ text in purple (and bold)@@
 ```
+
+This is a paragraph.
+
+<p>This is a paragraph with a blue color.</p>
 
 
 ### <razdel>Транзисторы<razdel>
