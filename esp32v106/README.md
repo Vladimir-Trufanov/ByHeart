@@ -25,5 +25,5 @@ $markdown = Redcarpet.new("Hello World!");
 <span style="color:red">some **Используйте `статус git`, чтобы вывести список всех новых или измененных файлов, которые ...еще... не были зафиксированы.** text</span>
 
 
-###### [к содержанию](/ByHeart/README.md)
+###### [к содержанию](../README.md)
 
