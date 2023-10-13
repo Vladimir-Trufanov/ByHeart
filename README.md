@@ -12,6 +12,8 @@ yellow { color: yellow }
 
 <span style="color:yellow">Содержимое каталога:</span>
 
+<span style="color:red;">Your text here</span>
+
 ``` diff
 - text in red
 + text in green
