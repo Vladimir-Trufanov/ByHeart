@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Untitled</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.line-block{white-space: pre-line;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">
+a.sourceLine { display: inline-block; min-height: 1.25em; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; }
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; color: initial; }
+}
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.bn { color: #40a070; } /* BaseN */
+code span.fl { color: #40a070; } /* Float */
+code span.ch { color: #4070a0; } /* Char */
+code span.st { color: #4070a0; } /* String */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.ot { color: #007020; } /* Other */
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.fu { color: #06287e; } /* Function */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code span.cn { color: #880000; } /* Constant */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.im { } /* Import */
+code span.va { color: #19177c; } /* Variable */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.op { color: #666666; } /* Operator */
+code span.bu { } /* BuiltIn */
+code span.ex { } /* Extension */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.at { color: #7d9029; } /* Attribute */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="universal-telegram-bot-library">Universal Telegram Bot Library</h1>
+<p><img src="https://img.shields.io/github/license/witnessmenow/Universal-Arduino-Telegram-Bot" alt="License" /> <img src="https://badgen.net/github/release/witnessmenow/Universal-Arduino-Telegram-Bot/stable" alt="Release stable" /></p>
+<p>An Arduino IDE library for using Telegram Bot API. It’s designed to be used with multiple Arduino architectures.</p>
+<p>Join the <a href="https://t.me/arduino_telegram_library">Arduino Telegram Library Group Chat</a> if you have any questions/feedback or would just like to be kept up to date with the library’s progress.</p>
+<h2 id="help-support-what-i-do">Help support what I do!</h2>
+<p>I have created a lot of different Arduino libraries that I hope people can make use of. <a href="https://github.com/sponsors/witnessmenow/">If you enjoy my work, please consider becoming a Github sponsor!</a></p>
+<h2 id="introduction">Introduction</h2>
+<p>This library provides an interface for <a href="https://core.telegram.org/bots/api">Telegram Bot API</a>.</p>
+<p>Telegram is an instant messaging service that allows for the creation of bots. Bots can be configured to send and receive messages. This is useful for Arduino projects as you can receive updates from your project or issue it commands via your Telegram app from anywhere.</p>
+<p>Telegram - это сервис мгновенных сообщений, который позволяет создавать ботов. Боты могут быть настроены для отправки и получения сообщений. Это полезно для проектов Arduino, так как вы можете получать обновления от своего проекта или отдавать ему команды через приложение Telegram из любого места.</p>
+<p>This is a library forked from <a href="https://github.com/Gianbacchio/ESP8266-TelegramBot">one library</a> and inspired by <a href="https://github.com/CasaJasmina/TelegramBot-Library">another</a></p>
+<p>Each library only supported a single type of Arduino and had different features implemented. The only thing that needs to be different for each board is the actual sending of requests to Telegram so I thought a library that additional architectures or boards could be configured easily would be useful, although this springs to mind:</p>
+<p>Каждая библиотека поддерживала только один тип Arduino и имела реализованные различные функции. Единственное, что должно отличаться для каждой платы, - это фактическая отправка запросов в Telegram, поэтому я подумал, что была бы полезна библиотека, в которой можно было бы легко настроить дополнительные архитектуры или платы, хотя это приходит на ум:</p>
+<p><img src="https://imgs.xkcd.com/comics/standards.png" title="standards" /></p>
+<h2 id="installing">Installing</h2>
+<p>The downloaded code can be included as a new library into the IDE selecting the menu:</p>
+<pre><code> Sketch / include Library / Add .Zip library</code></pre>
+<p>You also have to install the ArduinoJson library written by <a href="https://github.com/bblanchon">Benoît Blanchon</a>. Search for it on the Arduino Library manager or get it from <a href="https://github.com/bblanchon/ArduinoJson">here</a>.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>To generate your new Bot, you need an Access Token. Talk to <a href="https://telegram.me/botfather">BotFather</a> and follow a few simple steps described <a href="https://core.telegram.org/bots#botfather">here</a>.</p>
+<p>Include UniversalTelegramBot in your project:</p>
+<pre class="sourceCode ino" id="cb2"><code class="sourceCode cpp"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="pp">#include </span><span class="im">&lt;UniversalTelegramBot.h&gt;</span></a></code></pre>
+<p>and pass it a Bot token and a SSL Client (See the <a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/tree/master/examples">examples</a> for more details)</p>
+<pre class="sourceCode ino" id="cb3"><code class="sourceCode cpp"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="co">// Telegram BOT Token (Get from Botfather)</span></a>
+<a class="sourceLine" id="cb3-2" data-line-number="2"><span class="pp">#define BOT_TOKEN &quot;XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&quot;</span></a>
+<a class="sourceLine" id="cb3-3" data-line-number="3">WiFiClientSecure secured_client;</a>
+<a class="sourceLine" id="cb3-4" data-line-number="4">UniversalTelegramBot bot(BOT_TOKEN, secured_client);</a></code></pre>
+<h2 id="features">Features</h2>
+<p>Here is a list of features that this library covers. (Note: The examples link to the ESP8266 versions)</p>
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 28%" />
+<col style="width: 27%" />
+<col style="width: 41%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>Description</th>
+<th>Usage</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Receiving Messages</em></td>
+<td>Ваш бот может читать отправляемые ему сообщения. Это полезно для отправки команд на ваш arduino, таких как переключение светодиода</td>
+<td><code>int getUpdates(long offset)</code> <br><br> Gets any pending messages from Telegram and stores them in <strong>bot.messages</strong> . Offset should be set to <strong>bot.last_message_received</strong> + 1. Returns the numbers new messages received.</td>
+<td><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/FlashLED/FlashLED.ino">FlashLED</a> or any other example</td>
+</tr>
+<tr class="even">
+<td><em>Sending messages</em></td>
+<td>Ваш бот может отправлять сообщения в любой Telegram или группу. Это может быть полезно, чтобы заставить arduino уведомлять вас о событии, например, о нажатии кнопки и т.д. (Примечание: боты могут отправлять вам сообщения только в том случае, если вы отправили их первыми)</td>
+<td><code>bool sendMessage(String chat_id, String text, String parse_mode = &quot;&quot;)</code> <br><br> Sends the message to the chat_id. Returns if the message sent or not.</td>
+<td><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/EchoBot/EchoBot.ino#L51">EchoBot</a> or any other example</td>
+</tr>
+<tr class="odd">
+<td><em>Reply Keyboards</em></td>
+<td>Ваш бот может отправлять <a href="https://camo.githubusercontent.com/2116a60fa614bf2348074a9d7148f7d0a7664d36/687474703a2f2f692e696d6775722e636f6d2f325268366c42672e6a70673f32">ответные клавиши</a>, которые можно использовать как своего рода меню.</td>
+<td><code>bool sendMessageWithReplyKeyboard(String chat_id, String text, String parse_mode, String keyboard, bool resize = false, bool oneTime = false, bool selective = false)</code> <br><br> Send a keyboard to the specified chat_id. parse_mode can be left blank. Will return true if the message sends successfully.</td>
+<td><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/CustomKeyboard/ReplyKeyboardMarkup/ReplyKeyboardMarkup.ino">ReplyKeyboard</a></td>
+</tr>
+<tr class="even">
+<td><em>Inline Keyboards</em></td>
+<td>Your bot can send <a href="https://camo.githubusercontent.com/55dde972426e5bc77120ea17a9c06bff37856eb6/68747470733a2f2f636f72652e74656c656772616d2e6f72672f66696c652f3831313134303939392f312f324a536f55566c574b61302f346661643265323734336463386564613034">inline keyboards</a>. <br><br>Note: URLS &amp; callbacks are supported currently</td>
+<td><code>bool sendMessageWithInlineKeyboard(String chat_id, String text, String parse_mode, String keyboard)</code> <br><br> Send a keyboard to the specified chat_id. parse_mode can be left blank. Will return true if the message sends successfully.</td>
+<td><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/CustomKeyboard/InlineKeyboardMarkup/InlineKeyboardMarkup.ino">InlineKeyboard</a></td>
+</tr>
+<tr class="odd">
+<td><em>Send Photos</em></td>
+<td>It is possible to send phtos from your bot. You can send images from the web or from the arduino directly (Only sending from an SD card has been tested, but it should be able to send from a camera module)</td>
+<td>Check the examples for more info</td>
+<td><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/SendPhoto/PhotoFromURL/PhotoFromURL.ino">From URL</a><br><br><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/SendPhoto/PhotoFromSD/PhotoFromSD.ino">Binary from SD</a><br><br><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/SendPhoto/PhotoFromFileID/PhotoFromFileID.ino">From File Id</a></td>
+</tr>
+<tr class="even">
+<td><em>Chat Actions</em></td>
+<td>Your bot can send chat actions, such as <em>typing</em> or <em>sending photo</em> to let the user know that the bot is doing something.</td>
+<td><code>bool sendChatAction(String chat_id, String chat_action)</code> <br><br> Send a the chat action to the specified chat_id. There is a set list of chat actions that Telegram support, see the example for details. Will return true if the chat actions sends successfully.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Location</em></td>
+<td>Your bot can receive location data, either from a single location data point or live location data.</td>
+<td>Check the example.</td>
+<td><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/tree/master/examples/ESP8266/Location/Location.ino">Location</a></td>
+</tr>
+<tr class="even">
+<td><em>Channel Post</em></td>
+<td>Reads posts from channels.</td>
+<td>Check the example.</td>
+<td><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/tree/master/examples/ESP8266/ChannelPost/ChannelPost.ino">ChannelPost</a></td>
+</tr>
+<tr class="odd">
+<td><em>Long Poll</em></td>
+<td>Set how long the bot will wait checking for a new message before returning now messages. <br><br> This will decrease the amount of requests and data used by the bot, but it will tie up the arduino while it waits for messages</td>
+<td><code>bot.longPoll = 60;</code> <br><br> Where 60 is the amount of seconds it should wait</td>
+<td><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/tree/master/examples/ESP8266/LongPoll/LongPoll.ino">LongPoll</a></td>
+</tr>
+<tr class="even">
+<td><em>Update Firmware and SPIFFS</em></td>
+<td>You can update firmware and spiffs area through send files as a normal file with a specific caption.</td>
+<td><code>update firmware</code> <br>or<br><code>update spiffs</code><br> These are captions for example.</td>
+<td><a href="https://github.com/solcer/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP32/telegramOTA/telegramOTA.ino">telegramOTA</a></td>
+</tr>
+</tbody>
+</table>
+<p>The full Telegram Bot API documentation can be read <a href="https://core.telegram.org/bots/api">here</a>. If there is a feature you would like added to the library please either raise a Github issue or please feel free to raise a Pull Request.</p>
+<h2 id="other-examples">Other Examples</h2>
+<p>Some other examples are included you may find useful:</p>
+<ul>
+<li><p>BulkMessages : sends messages to multiple subscribers (ESP8266 only).</p></li>
+<li><p>UsingWifiManager : Same as FlashLedBot but also uses WiFiManager library to configure WiFi (ESP8266 only).</p></li>
+</ul>
+<h2 id="license">License</h2>
+<p><img src="https://img.shields.io/github/license/witnessmenow/Universal-Arduino-Telegram-Bot" alt="License" /> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<h6 id="к-содержанию"><a href="../README.md">к содержанию</a></h6>
+</body>
+</html>

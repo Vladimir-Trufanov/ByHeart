@@ -10,13 +10,26 @@
 ### [MYHEART, примеры и эксперименты для души, для сердца](myheart/MyHeart.md)
 ### [SENSORS, материалы по датчикам](sensors/Sensors.md)
 ### [TRANSISTORS, всё про транзисторы](transistors/Transistors.md)
+### [UNIVERSALTELEGRAMBOT, Universal Telegram Bot Library](universaltelegrambot/Universaltelegrambot.md)
+
+
+
+
+
+
+
+
+
+
+
+universaltelegrambot
 
 ### [Пример ссылки внутри документа](#zastavlyaem-migat-lampochkami-esp32-cam)
 
 ###### [к содержанию](#soderzhanie)
 
 <style>
-razdel{color:#ab4a16; font-weight:700; font-size:1.2rem}
+razdel{color:#ab4a16; font-weight:700; font-size:1.3rem}
 cod{color:#ab4a16;}
 red { color: red }
 yellow { color: yellow }
@@ -24,7 +37,7 @@ yellow { color: yellow }
 
 ###### zastavlyaem-migat-lampochkami-esp32-cam
 
-#### <razdel>Способы окрашивания текста не для GitHub</razdel>
+### <razdel>Способы окрашивания текста не для Markdown GitHub</razdel>
 
 <red>Дистрибутивы и их тестирование (каталог Https)</red>
 
@@ -34,7 +47,7 @@ yellow { color: yellow }
 
 <cod>This is a paragraph.</cod>
 
-#### <razdel>Создание эффектов блочного различия в Markdown</razdel>
+### <razdel>Создание эффектов блочного различия в Markdown GitHub</razdel>
 
 Одним из популярных синтаксисов для создания эффектов блочного сравнения в Markdown является синтаксис «GitHub-flavored Markdown», который использует тройные обратные кавычки для окружения измененного текста и добавляет строку текста, содержащую слово «diff», чтобы указать, что содержимое является diff. Измененный текст затем заключен в блок кода с соответствующим языковым тегом, таким как «diff» или «bash». Вот пример:
 
