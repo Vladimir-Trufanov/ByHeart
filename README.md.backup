@@ -4,27 +4,21 @@
 
 
 ###### soderzhanie
+
+### [DISPLAYS, OLED и другие дисплеи](displays/displays.md)
+
 ### [ESP32-CAM, библиотека и примеры для версии 1.0.6](esp32v106/ESP32v106.md)
+
 ### [FRITZING, как пользоваться, примеры и библиотеки](fritzing/Fritzing.md)
-### [САМОДЕЛКИ, что можно сделать для дома, для семьи -DDS](homemade/HomeMade.md)
+
 ### [MYHEART, примеры и эксперименты для души, для сердца](myheart/MyHeart.md)
+
 ### [SENSORS, материалы по датчикам](sensors/Sensors.md)
 ### [TRANSISTORS, всё про транзисторы](transistors/Transistors.md)
 ### [UNIVERSALTELEGRAMBOT, Universal Telegram Bot Library](universaltelegrambot/Universaltelegrambot.md)
 
-
-
-
-
-
-
-
-
-
-
-universaltelegrambot
-
 ### [Пример ссылки внутри документа](#zastavlyaem-migat-lampochkami-esp32-cam)
+### [САМОДЕЛКИ, что можно сделать для дома, для семьи -DDS](homemade/HomeMade.md)
 
 ###### [к содержанию](#soderzhanie)
 

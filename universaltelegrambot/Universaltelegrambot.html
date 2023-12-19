@@ -143,19 +143,19 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 </tr>
 <tr class="odd">
 <td><em>Send Photos</em></td>
-<td>It is possible to send phtos from your bot. You can send images from the web or from the arduino directly (Only sending from an SD card has been tested, but it should be able to send from a camera module)</td>
+<td>Можно отправлять фотографии с вашего бота. Вы можете отправлять изображения из Интернета или непосредственно с arduino (была протестирована только отправка с SD-карты, но она должна быть способна отправлять с модуля камеры).</td>
 <td>Check the examples for more info</td>
 <td><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/SendPhoto/PhotoFromURL/PhotoFromURL.ino">From URL</a><br><br><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/SendPhoto/PhotoFromSD/PhotoFromSD.ino">Binary from SD</a><br><br><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP8266/SendPhoto/PhotoFromFileID/PhotoFromFileID.ino">From File Id</a></td>
 </tr>
 <tr class="even">
 <td><em>Chat Actions</em></td>
-<td>Your bot can send chat actions, such as <em>typing</em> or <em>sending photo</em> to let the user know that the bot is doing something.</td>
+<td>Ваш бот может отправлять действия в чате, такие как ввод текста или отправка фотографии, чтобы пользователь знал, что бот что-то делает.</td>
 <td><code>bool sendChatAction(String chat_id, String chat_action)</code> <br><br> Send a the chat action to the specified chat_id. There is a set list of chat actions that Telegram support, see the example for details. Will return true if the chat actions sends successfully.</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><em>Location</em></td>
-<td>Your bot can receive location data, either from a single location data point or live location data.</td>
+<td>Ваш бот может получать данные о местоположении либо из одной точки данных о местоположении, либо из данных о реальном местоположении.</td>
 <td>Check the example.</td>
 <td><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/tree/master/examples/ESP8266/Location/Location.ino">Location</a></td>
 </tr>
@@ -167,19 +167,19 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 </tr>
 <tr class="odd">
 <td><em>Long Poll</em></td>
-<td>Set how long the bot will wait checking for a new message before returning now messages. <br><br> This will decrease the amount of requests and data used by the bot, but it will tie up the arduino while it waits for messages</td>
+<td>Можно указать, как долго бот будет проверять и ждать наличия нового сообщения, прежде чем возвращать своё сообщения.<br>Это уменьшит количество запросов и данных, используемых ботом, но это приведет к зависанию arduino во время ожидания сообщений</td>
 <td><code>bot.longPoll = 60;</code> <br><br> Where 60 is the amount of seconds it should wait</td>
 <td><a href="https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot/tree/master/examples/ESP8266/LongPoll/LongPoll.ino">LongPoll</a></td>
 </tr>
 <tr class="even">
 <td><em>Update Firmware and SPIFFS</em></td>
-<td>You can update firmware and spiffs area through send files as a normal file with a specific caption.</td>
+<td>Вы можете обновить встроенное ПО и область spiffs с помощью отправки файлов в виде обычного файла с определенным заголовком.</td>
 <td><code>update firmware</code> <br>or<br><code>update spiffs</code><br> These are captions for example.</td>
 <td><a href="https://github.com/solcer/Universal-Arduino-Telegram-Bot/blob/master/examples/ESP32/telegramOTA/telegramOTA.ino">telegramOTA</a></td>
 </tr>
 </tbody>
 </table>
-<p>The full Telegram Bot API documentation can be read <a href="https://core.telegram.org/bots/api">here</a>. If there is a feature you would like added to the library please either raise a Github issue or please feel free to raise a Pull Request.</p>
+<p>The full Telegram Bot API documentation can be read <a href="https://core.telegram.org/bots/api">here</a>. Если есть функция, которую вы хотели бы добавить в библиотеку, пожалуйста, либо поднимите проблему на Github, либо, не стесняйтесь отправить запрос на извлечение.</p>
 <h2 id="other-examples">Other Examples</h2>
 <p>Some other examples are included you may find useful:</p>
 <ul>
@@ -188,6 +188,7 @@ code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Infor
 </ul>
 <h2 id="license">License</h2>
 <p><img src="https://img.shields.io/github/license/witnessmenow/Universal-Arduino-Telegram-Bot" alt="License" /> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>Настоящим бесплатно предоставляется разрешение любому лицу, получающему копию данного программного обеспечения и связанные с ним файлы документации (“Программное обеспечение”), на работу с Программным обеспечением без ограничений, включая, без ограничений, права на использование, копирование, модификацию, объединение, публикацию, распространение, сублицензирование и/или продажу копии Программного обеспечения и разрешает лицам, которым предоставляется Программное обеспечение, делать это при соблюдении следующих условий: Вышеуказанное уведомление об авторских правах и данное уведомление о разрешении должны быть включены во все копии или существенные части программного обеспечения.</p>
 <h6 id="к-содержанию"><a href="../README.md">к содержанию</a></h6>
 </body>
 </html>
