@@ -5143,40 +5143,116 @@ ByHeart
 			myheart\MyHeart.md
 			myheart\MyHeart.md.backup
 		+sensors
-			-HC-SR501 Инфракрасный датчик присутствия
-				sensors\HC-SR501 Инфракрасный датчик присутствия\obzor-28byj-48-s-drayverom-uln2003.ino
-				sensors\HC-SR501 Инфракрасный датчик присутствия\obzor-modulya-rele-1-x-kanalny.ino
-				sensors\HC-SR501 Инфракрасный датчик присутствия\Датчик движения HC-SR501.doc
-				sensors\HC-SR501 Инфракрасный датчик присутствия\Обзор инфракрасного датчика движения HC-SR501.doc
-				sensors\HC-SR501 Инфракрасный датчик присутствия\Обзор модуля реле 1-канального.doc
-			-KY-003 - модуль цифрового датчика Холла
+			-hc-sr501-infrakrasnyj-datchik-prisutstviya
+				sensors\hc-sr501-infrakrasnyj-datchik-prisutstviya\hc-sr501-infrakrasnyj-datchik-prisutstviya.md
+				sensors\hc-sr501-infrakrasnyj-datchik-prisutstviya\hc-sr501-infrakrasnyj-datchik-prisutstviya.md.backup
+				sensors\hc-sr501-infrakrasnyj-datchik-prisutstviya\obzor-28byj-48-s-drayverom-uln2003.ino
+				sensors\hc-sr501-infrakrasnyj-datchik-prisutstviya\obzor-modulya-rele-1-x-kanalny.ino
+				sensors\hc-sr501-infrakrasnyj-datchik-prisutstviya\Датчик движения HC-SR501.doc
+				sensors\hc-sr501-infrakrasnyj-datchik-prisutstviya\Обзор инфракрасного датчика движения HC-SR501.doc
+				sensors\hc-sr501-infrakrasnyj-datchik-prisutstviya\Обзор модуля реле 1-канального.doc
+			+ky-001-modul-cifrovogo-datchika-temperatury
+				+DallasTemperature-3.9.0
+					-examples
+						-Alarm
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Alarm\Alarm.ino
+						-AlarmHandler
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\AlarmHandler\AlarmHandler.ino
+						-ExternalPullup
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\ExternalPullup\ExternalPullup.ino
+						-Multibus_simple
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Multibus_simple\Multibus_simple.ino
+						-Multiple
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Multiple\Multiple.ino
+						-oneWireSearch
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\oneWireSearch\oneWireSearch.ino
+						-readPowerSupply
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\readPowerSupply\readPowerSupply.ino
+						-SaveRecallScratchPad
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\SaveRecallScratchPad\SaveRecallScratchPad.ino
+						-SetUserData
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\SetUserData\SetUserData.ino
+						-Simple
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Simple\Simple.ino
+						-Single
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Single\Single.ino
+						-Tester
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Tester\Tester.ino
+						-Timing
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Timing\Timing.ino
+						-TwoPin_DS18B20
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\TwoPin_DS18B20\TwoPin_DS18B20.ino
+						-UserDataDemo
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\UserDataDemo\UserDataDemo.ino
+						-UserDataWriteBatch
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\UserDataWriteBatch\UserDataWriteBatch.ino
+						-WaitForConversion
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\WaitForConversion\WaitForConversion.ino
+						-WaitForConversion2
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\WaitForConversion2\WaitForConversion2.ino
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.cpp
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.h
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\keywords.txt
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\library.json
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\library.properties
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\README.md
+				-ky-001-test
+					-util
+						sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-test\util\OneWire_direct_gpio.h
+						sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-test\util\OneWire_direct_regtype.h
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-test\DallasTemperature.cpp
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-test\DallasTemperature.h
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-test\ky-001-test.ino
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-test\OneWire.cpp
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-test\OneWire.h
+				+OneWire-2.3.7
+					-docs
+						sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\docs\issue_template.md
+					-examples
+						-DS18x20_Temperature
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\examples\DS18x20_Temperature\DS18x20_Temperature.ino
+						-DS2408_Switch
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\examples\DS2408_Switch\DS2408_Switch.ino
+						-DS250x_PROM
+							sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\examples\DS250x_PROM\DS250x_PROM.ino
+					-util
+						sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\util\OneWire_direct_gpio.h
+						sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\util\OneWire_direct_regtype.h
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\keywords.txt
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\library.json
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\library.properties
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\OneWire.cpp
+					sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\OneWire.h
+				sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001.webp
+				sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-modul-cifrovogo-datchika-temperatury.md
+				sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-modul-cifrovogo-datchika-temperatury.md.backup
+				sensors\ky-001-modul-cifrovogo-datchika-temperatury\shema-podklyucheniya-modulya-ky-001-k-arduino-uno.webp
+				sensors\ky-001-modul-cifrovogo-datchika-temperatury\tehnicheskie-harakteristiki-modulya-ky-001.jpg
+			-ky-003-modul-cifrovogo-datchika-holla
 				-KY-003 Fritzing
-					sensors\KY-003 - модуль цифрового датчика Холла\KY-003 Fritzing\keyes-hall-effect.png
-					sensors\KY-003 - модуль цифрового датчика Холла\KY-003 Fritzing\KY-003-keyes-hall-effect.fzpz
-				sensors\KY-003 - модуль цифрового датчика Холла\KY-003 - модуль цифрового датчика Холла.md
-				sensors\KY-003 - модуль цифрового датчика Холла\KY-003 - модуль цифрового датчика Холла.md.backup
-			+KY-013 - модуль аналогового датчика температуры
+					sensors\ky-003-modul-cifrovogo-datchika-holla\KY-003 Fritzing\keyes-hall-effect.png
+					sensors\ky-003-modul-cifrovogo-datchika-holla\KY-003 Fritzing\KY-003-keyes-hall-effect.fzpz
+				sensors\ky-003-modul-cifrovogo-datchika-holla\ky-003-modul-cifrovogo-datchika-holla.md
+			-ky-013-modul-analogovogo-datchika-temperatury
 				-KY-013 Fritzing
-					sensors\KY-013 - модуль аналогового датчика температуры\KY-013 Fritzing\keyes-analog-temp.png
-					sensors\KY-013 - модуль аналогового датчика температуры\KY-013 Fritzing\KY-013-keyes-analog-temp.fzpz
-				+KY013-test
-					sensors\KY-013 - модуль аналогового датчика температуры\KY013-test\KY013-test.ino
-				+KY013-test-v2
-					sensors\KY-013 - модуль аналогового датчика температуры\KY013-test-v2\KY013-test-v2.ino
-				sensors\KY-013 - модуль аналогового датчика температуры\ehlektricheskaya-shema-vneshnij-vid-i-pechatnaya-plata-modulya-ky-013.webp
-				sensors\KY-013 - модуль аналогового датчика температуры\KY-013 - модуль аналогового датчика температуры.md
-				sensors\KY-013 - модуль аналогового датчика температуры\KY-013 - модуль аналогового датчика температуры.md.backup
-				sensors\KY-013 - модуль аналогового датчика температуры\ky-013.pdf
-				sensors\KY-013 - модуль аналогового датчика температуры\KY-013_connecting_to_arduino-1110x600.webp
-				sensors\KY-013 - модуль аналогового датчика температуры\ky-013-1.webp
-				sensors\KY-013 - модуль аналогового датчика температуры\thermistor_incorrect-readings.gif
-				sensors\KY-013 - модуль аналогового датчика температуры\thermistor_ntc_100k.webp
-			-KY-018 - модуль фоторезистора
+					sensors\ky-013-modul-analogovogo-datchika-temperatury\KY-013 Fritzing\keyes-analog-temp.png
+					sensors\ky-013-modul-analogovogo-datchika-temperatury\KY-013 Fritzing\KY-013-keyes-analog-temp.fzpz
+				-KY013-test
+					sensors\ky-013-modul-analogovogo-datchika-temperatury\KY013-test\KY013-test.ino
+				-KY013-test-v2
+					sensors\ky-013-modul-analogovogo-datchika-temperatury\KY013-test-v2\KY013-test-v2.ino
+				sensors\ky-013-modul-analogovogo-datchika-temperatury\ehlektricheskaya-shema-vneshnij-vid-i-pechatnaya-plata-modulya-ky-013.webp
+				sensors\ky-013-modul-analogovogo-datchika-temperatury\ky-013.pdf
+				sensors\ky-013-modul-analogovogo-datchika-temperatury\KY-013_connecting_to_arduino-1110x600.webp
+				sensors\ky-013-modul-analogovogo-datchika-temperatury\ky-013-1.webp
+				sensors\ky-013-modul-analogovogo-datchika-temperatury\ky-013-modul-analogovogo-datchika-temperatury.md
+				sensors\ky-013-modul-analogovogo-datchika-temperatury\thermistor_incorrect-readings.gif
+				sensors\ky-013-modul-analogovogo-datchika-temperatury\thermistor_ntc_100k.webp
+			-ky-018-modul-fotorezistora
 				-KY-018 Fritzing
-					sensors\KY-018 - модуль фоторезистора\KY-018 Fritzing\keyes-photo-resistor.png
-					sensors\KY-018 - модуль фоторезистора\KY-018 Fritzing\KY-018-keyes-photo-resistor.fzpz
-				sensors\KY-018 - модуль фоторезистора\KY-018 - модуль фоторезистора.md
-				sensors\KY-018 - модуль фоторезистора\KY-018 - модуль фоторезистора.md.backup
+					sensors\ky-018-modul-fotorezistora\KY-018 Fritzing\keyes-photo-resistor.png
+					sensors\ky-018-modul-fotorezistora\KY-018 Fritzing\KY-018-keyes-photo-resistor.fzpz
+				sensors\ky-018-modul-fotorezistora\ky-018-modul-fotorezistora.md
 			sensors\Sensors.md
 			sensors\Sensors.md.backup
 		-transistors
@@ -6251,14 +6327,22 @@ ByHeart
 		README.md
 		README.md.backup
 [Open project files]
-0=sensors\KY-013 - модуль аналогового датчика температуры\KY013-test-v2\KY013-test-v2.ino
-1=sensors\KY-013 - модуль аналогового датчика температуры\KY013-test\KY013-test.ino
+0=Новый1.txt
+1=sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.h
+2=sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\OneWire.h
+3=sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.cpp
 [Selected Project Files]
 Main=
-Selected=sensors\KY-013 - модуль аналогового датчика температуры\KY013-test-v2\KY013-test-v2.ino
-[sensors\KY-013 - модуль аналогового датчика температуры\KY013-test-v2\KY013-test-v2.ino]
-TopLine=4
-Caret=1,39
-[sensors\KY-013 - модуль аналогового датчика температуры\KY013-test\KY013-test.ino]
-TopLine=6
-Caret=19,43
+Selected=sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.cpp
+[Новый1.txt]
+TopLine=1
+Caret=1,1
+[sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.h]
+TopLine=1
+Caret=1,1
+[sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\OneWire.h]
+TopLine=1
+Caret=1,1
+[sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.cpp]
+TopLine=1
+Caret=11,4
