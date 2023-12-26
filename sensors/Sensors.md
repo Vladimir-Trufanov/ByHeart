@@ -11,6 +11,10 @@
 
 #### [HC-SR501 - инфракрасный датчик присутствия](hc-sr501-infrakrasnyj-datchik-prisutstviya/hc-sr501-infrakrasnyj-datchik-prisutstviya.md)
 
+#### звук:
+
+#### [KY-038 - микрофонный модуль звукового датчика](ky-038-mikrofonnyj-modul-zvukovogo-datchika.md)
+
 #### температура:
 
 #### [KY-001 - модуль цифрового датчика температуры](ky-001-modul-cifrovogo-datchika-temperatury/ky-001-modul-cifrovogo-datchika-temperatury.md)

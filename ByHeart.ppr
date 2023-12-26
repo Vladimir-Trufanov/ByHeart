@@ -18,6 +18,47 @@ Extensions=*.*
 [Project tree]
 ByHeart
 	+ByHeart
+		-arduino-same
+			-sput-ino-master
+				-example-desktop
+					arduino-same\sput-ino-master\example-desktop\_Arduino.h
+					arduino-same\sput-ino-master\example-desktop\Arduino.cpp
+					arduino-same\sput-ino-master\example-desktop\Arduino.h
+					arduino-same\sput-ino-master\example-desktop\build.sh
+					arduino-same\sput-ino-master\example-desktop\mylib-test-desktoponly.cpp
+					arduino-same\sput-ino-master\example-desktop\mylib-test-desktoponly.h
+					arduino-same\sput-ino-master\example-desktop\mylib-test-main.cpp
+				-examples
+					-sput-ino-modules
+						arduino-same\sput-ino-master\examples\sput-ino-modules\mylib.cpp
+						arduino-same\sput-ino-master\examples\sput-ino-modules\mylib.h
+						arduino-same\sput-ino-master\examples\sput-ino-modules\mylib-test.cpp
+						arduino-same\sput-ino-master\examples\sput-ino-modules\mylib-test.h
+						arduino-same\sput-ino-master\examples\sput-ino-modules\sput-ino-modules.ino
+					-sput-ino-monolith
+						arduino-same\sput-ino-master\examples\sput-ino-monolith\sput-ino-monolith.ino
+				-src
+					-sam
+						arduino-same\sput-ino-master\src\sam\get_time_of_day.c
+					arduino-same\sput-ino-master\src\sput.h
+					arduino-same\sput-ino-master\src\sput-ino.h
+					arduino-same\sput-ino-master\src\sput-libc.h
+				arduino-same\sput-ino-master\.gitignore
+				arduino-same\sput-ino-master\library.properties
+				arduino-same\sput-ino-master\LICENSE
+				arduino-same\sput-ino-master\README.md
+			-sput-ino-monolith
+				arduino-same\sput-ino-monolith\sput-ino-monolith.ino
+			-TestingDigitalPins
+				arduino-same\TestingDigitalPins\TestingDigitalPins.ino
+			arduino-same\arduino-same.md.backup
+			arduino-same\foto-originalnogo-arduino-uno-na-atmega328p.png
+			arduino-same\raspinovka-arduino-uno.webp
+		-arduino-sheet
+			arduino-sheet\arduino-sheet.md
+			arduino-sheet\arduino-sheet.md.backup
+			arduino-sheet\enhanced-feature-arduino.png
+			arduino-sheet\entry-level-arduino-boards.png
 		-arduino-sign
 			arduino-sign\Arduino 2 step verification recovery code.txt
 			arduino-sign\Arduino.jpg
@@ -5151,51 +5192,7 @@ ByHeart
 				sensors\hc-sr501-infrakrasnyj-datchik-prisutstviya\Датчик движения HC-SR501.doc
 				sensors\hc-sr501-infrakrasnyj-datchik-prisutstviya\Обзор инфракрасного датчика движения HC-SR501.doc
 				sensors\hc-sr501-infrakrasnyj-datchik-prisutstviya\Обзор модуля реле 1-канального.doc
-			+ky-001-modul-cifrovogo-datchika-temperatury
-				+DallasTemperature-3.9.0
-					-examples
-						-Alarm
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Alarm\Alarm.ino
-						-AlarmHandler
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\AlarmHandler\AlarmHandler.ino
-						-ExternalPullup
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\ExternalPullup\ExternalPullup.ino
-						-Multibus_simple
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Multibus_simple\Multibus_simple.ino
-						-Multiple
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Multiple\Multiple.ino
-						-oneWireSearch
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\oneWireSearch\oneWireSearch.ino
-						-readPowerSupply
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\readPowerSupply\readPowerSupply.ino
-						-SaveRecallScratchPad
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\SaveRecallScratchPad\SaveRecallScratchPad.ino
-						-SetUserData
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\SetUserData\SetUserData.ino
-						-Simple
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Simple\Simple.ino
-						-Single
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Single\Single.ino
-						-Tester
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Tester\Tester.ino
-						-Timing
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\Timing\Timing.ino
-						-TwoPin_DS18B20
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\TwoPin_DS18B20\TwoPin_DS18B20.ino
-						-UserDataDemo
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\UserDataDemo\UserDataDemo.ino
-						-UserDataWriteBatch
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\UserDataWriteBatch\UserDataWriteBatch.ino
-						-WaitForConversion
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\WaitForConversion\WaitForConversion.ino
-						-WaitForConversion2
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\examples\WaitForConversion2\WaitForConversion2.ino
-					sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.cpp
-					sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.h
-					sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\keywords.txt
-					sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\library.json
-					sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\library.properties
-					sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\README.md
+			-ky-001-modul-cifrovogo-datchika-temperatury
 				-ky-001-test
 					-util
 						sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-test\util\OneWire_direct_gpio.h
@@ -5205,24 +5202,6 @@ ByHeart
 					sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-test\ky-001-test.ino
 					sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-test\OneWire.cpp
 					sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-test\OneWire.h
-				+OneWire-2.3.7
-					-docs
-						sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\docs\issue_template.md
-					-examples
-						-DS18x20_Temperature
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\examples\DS18x20_Temperature\DS18x20_Temperature.ino
-						-DS2408_Switch
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\examples\DS2408_Switch\DS2408_Switch.ino
-						-DS250x_PROM
-							sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\examples\DS250x_PROM\DS250x_PROM.ino
-					-util
-						sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\util\OneWire_direct_gpio.h
-						sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\util\OneWire_direct_regtype.h
-					sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\keywords.txt
-					sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\library.json
-					sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\library.properties
-					sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\OneWire.cpp
-					sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\OneWire.h
 				sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001.webp
 				sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-modul-cifrovogo-datchika-temperatury.md
 				sensors\ky-001-modul-cifrovogo-datchika-temperatury\ky-001-modul-cifrovogo-datchika-temperatury.md.backup
@@ -5253,6 +5232,31 @@ ByHeart
 					sensors\ky-018-modul-fotorezistora\KY-018 Fritzing\keyes-photo-resistor.png
 					sensors\ky-018-modul-fotorezistora\KY-018 Fritzing\KY-018-keyes-photo-resistor.fzpz
 				sensors\ky-018-modul-fotorezistora\ky-018-modul-fotorezistora.md
+			+ky-038-mikrofonnyj-modul-zvukovogo-datchika
+				-address_LED_strip
+					sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\address_LED_strip\address_LED_strip.ino
+				-SoundByAnalogReferenceDEFAULT
+					sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByAnalogReferenceDEFAULT\SoundByAnalogReferenceDEFAULT.ino
+					sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByAnalogReferenceDEFAULT\SoundByAnalogReferenceDEFAULT.jpg
+				+SoundByVolAnalyzerDEFAULT
+					sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByVolAnalyzerDEFAULT\SoundByVolAnalyzerDEFAULT.ino
+					sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByVolAnalyzerDEFAULT\VolAnalyzer.h
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\32e177d1e23e43c8df7954c876bac14e.png
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\ampli-graph.png
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\ArduinoFHT-master.zip
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\audio-graph.png
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\ckhema.png
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\Clap-main.zip
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\f895fcb2af742714daeae2e5b15d96b7.jpg
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\FastLED-master.zip
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\ky-038-mikrofonnyj-modul-zvukovogo-datchika.md
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\ky-038-mikrofonnyj-modul-zvukovogo-datchika.md.backup
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\max9814.jpg
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\mic-sch2.png
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\Shema-podklyucheniya-datchika-zvuka-KY-038-k-arduino.jpg
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\sound_sensor_parts.jpg
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\VolAnalyzer-1.9.0.zip
+				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\VolAnalyzer-main.zip
 			sensors\Sensors.md
 			sensors\Sensors.md.backup
 		-transistors
@@ -6322,27 +6326,182 @@ ByHeart
 				Джереми Блум - Инструменты технического волшебства\ch9\LICENSE.txt
 			Джереми Блум - Инструменты технического волшебства\549360 c08f008.tiff
 			Джереми Блум - Инструменты технического волшебства\Изучаем Arduino -  инструменты и методы технического волшебства.djvu
+		-По датчикам темпертуры
+			-Complekt1
+				-DallasTemperature-3.9.0
+					-examples
+						-Alarm
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\Alarm\Alarm.ino
+						-AlarmHandler
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\AlarmHandler\AlarmHandler.ino
+						-ExternalPullup
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\ExternalPullup\ExternalPullup.ino
+						-Multibus_simple
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\Multibus_simple\Multibus_simple.ino
+						-Multiple
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\Multiple\Multiple.ino
+						-oneWireSearch
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\oneWireSearch\oneWireSearch.ino
+						-readPowerSupply
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\readPowerSupply\readPowerSupply.ino
+						-SaveRecallScratchPad
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\SaveRecallScratchPad\SaveRecallScratchPad.ino
+						-SetUserData
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\SetUserData\SetUserData.ino
+						-Simple
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\Simple\Simple.ino
+						-Single
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\Single\Single.ino
+						-Tester
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\Tester\Tester.ino
+						-Timing
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\Timing\Timing.ino
+						-TwoPin_DS18B20
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\TwoPin_DS18B20\TwoPin_DS18B20.ino
+						-UserDataDemo
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\UserDataDemo\UserDataDemo.ino
+						-UserDataWriteBatch
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\UserDataWriteBatch\UserDataWriteBatch.ino
+						-WaitForConversion
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\WaitForConversion\WaitForConversion.ino
+						-WaitForConversion2
+							По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\examples\WaitForConversion2\WaitForConversion2.ino
+					По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\DallasTemperature.cpp
+					По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\DallasTemperature.h
+					По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\keywords.txt
+					По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\library.json
+					По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\library.properties
+					По датчикам темпертуры\Complekt1\DallasTemperature-3.9.0\README.md
+				-GyverNTC-main
+					-GyverNTC-main
+						-.github
+							-workflows
+								По датчикам темпертуры\Complekt1\GyverNTC-main\GyverNTC-main\.github\workflows\tg-send.yml
+						-docs
+							По датчикам темпертуры\Complekt1\GyverNTC-main\GyverNTC-main\docs\conn2.png
+						-examples
+							-thermistor
+								По датчикам темпертуры\Complekt1\GyverNTC-main\GyverNTC-main\examples\thermistor\thermistor.ino
+						-src
+							По датчикам темпертуры\Complekt1\GyverNTC-main\GyverNTC-main\src\GyverNTC.cpp
+							По датчикам темпертуры\Complekt1\GyverNTC-main\GyverNTC-main\src\GyverNTC.h
+						По датчикам темпертуры\Complekt1\GyverNTC-main\GyverNTC-main\.gitattributes
+						По датчикам темпертуры\Complekt1\GyverNTC-main\GyverNTC-main\keywords.txt
+						По датчикам темпертуры\Complekt1\GyverNTC-main\GyverNTC-main\library.properties
+						По датчикам темпертуры\Complekt1\GyverNTC-main\GyverNTC-main\LICENSE
+						По датчикам темпертуры\Complekt1\GyverNTC-main\GyverNTC-main\README.md
+						По датчикам темпертуры\Complekt1\GyverNTC-main\GyverNTC-main\README_EN.md
+				-OneWire-2.3.7
+					-docs
+						По датчикам темпертуры\Complekt1\OneWire-2.3.7\docs\issue_template.md
+					-examples
+						-DS18x20_Temperature
+							По датчикам темпертуры\Complekt1\OneWire-2.3.7\examples\DS18x20_Temperature\DS18x20_Temperature.ino
+						-DS2408_Switch
+							По датчикам темпертуры\Complekt1\OneWire-2.3.7\examples\DS2408_Switch\DS2408_Switch.ino
+						-DS250x_PROM
+							По датчикам темпертуры\Complekt1\OneWire-2.3.7\examples\DS250x_PROM\DS250x_PROM.ino
+					-util
+						По датчикам темпертуры\Complekt1\OneWire-2.3.7\util\OneWire_direct_gpio.h
+						По датчикам темпертуры\Complekt1\OneWire-2.3.7\util\OneWire_direct_regtype.h
+					По датчикам темпертуры\Complekt1\OneWire-2.3.7\keywords.txt
+					По датчикам темпертуры\Complekt1\OneWire-2.3.7\library.json
+					По датчикам темпертуры\Complekt1\OneWire-2.3.7\library.properties
+					По датчикам темпертуры\Complekt1\OneWire-2.3.7\OneWire.cpp
+					По датчикам темпертуры\Complekt1\OneWire-2.3.7\OneWire.h
+				По датчикам темпертуры\Complekt1\DS18B20 datasheet.pdf
+				По датчикам темпертуры\Complekt1\GyverNTC-main.zip
+				По датчикам темпертуры\Complekt1\KY-028-Joy-IT.pdf
+				По датчикам темпертуры\Complekt1\obzor-lcd-displeya-1602a.zip
+			-Complekt2
+				-arduino_ds18b20_temperature_sensor
+					-arduino_ds18b20_temperature_sensor
+						По датчикам темпертуры\Complekt2\arduino_ds18b20_temperature_sensor\arduino_ds18b20_temperature_sensor\arduino_ds18b20_temperature_sensor.pde
+				-DallasTemperature
+					-DallasTemperature
+						-examples
+							-Alarm
+								По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\examples\Alarm\Alarm.pde
+							-AlarmHandler
+								По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\examples\AlarmHandler\AlarmHandler.pde
+							-Multiple
+								По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\examples\Multiple\Multiple.pde
+							-Simple
+								По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\examples\Simple\Simple.pde
+							-Single
+								По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\examples\Single\Single.pde
+							-Tester
+								По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\examples\Tester\Tester.pde
+							-WaitForConversion
+								По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\examples\WaitForConversion\WaitForConversion.pde
+							-WaitForConversion2
+								По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\examples\WaitForConversion2\WaitForConversion2.pde
+						По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\change.txt
+						По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\DallasTemperature.cpp
+						По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\DallasTemperature.h
+						По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\keywords.txt
+						По датчикам темпертуры\Complekt2\DallasTemperature\DallasTemperature\README.TXT
+				-fil
+					По датчикам темпертуры\Complekt2\fil\fil.ino
+				-OneWire
+					-OneWire
+						-examples
+							-DS18x20_Temperature
+								По датчикам темпертуры\Complekt2\OneWire\OneWire\examples\DS18x20_Temperature\DS18x20_Temperature.pde
+							-DS2408_Switch
+								По датчикам темпертуры\Complekt2\OneWire\OneWire\examples\DS2408_Switch\DS2408_Switch.pde
+							-DS250x_PROM
+								По датчикам темпертуры\Complekt2\OneWire\OneWire\examples\DS250x_PROM\DS250x_PROM.pde
+						По датчикам темпертуры\Complekt2\OneWire\OneWire\keywords.txt
+						По датчикам темпертуры\Complekt2\OneWire\OneWire\OneWire.cpp
+						По датчикам темпертуры\Complekt2\OneWire\OneWire\OneWire.h
+				-sketch_dec10a
+					По датчикам темпертуры\Complekt2\sketch_dec10a\sketch_dec10a.ino
+				-sketch_dec20a
+					По датчикам темпертуры\Complekt2\sketch_dec20a\sketch_dec20a.ino
+				-sketch_dec20b
+					По датчикам темпертуры\Complekt2\sketch_dec20b\sketch_dec20b.ino
+				-sketch_dec21a
+					-arduino_ds18b20_temperature_sensor
+						По датчикам темпертуры\Complekt2\sketch_dec21a\arduino_ds18b20_temperature_sensor\arduino_ds18b20_temperature_sensor.ino
+						По датчикам темпертуры\Complekt2\sketch_dec21a\arduino_ds18b20_temperature_sensor\arduino_ds18b20_temperature_sensor.pde
+						По датчикам темпертуры\Complekt2\sketch_dec21a\arduino_ds18b20_temperature_sensor\DallasTemperature.cpp
+						По датчикам темпертуры\Complekt2\sketch_dec21a\arduino_ds18b20_temperature_sensor\DallasTemperature.h
+						По датчикам темпертуры\Complekt2\sketch_dec21a\arduino_ds18b20_temperature_sensor\OneWire.cpp
+						По датчикам темпертуры\Complekt2\sketch_dec21a\arduino_ds18b20_temperature_sensor\OneWire.h
+					-util
+						По датчикам темпертуры\Complekt2\sketch_dec21a\util\OneWire_direct_gpio.h
+						По датчикам темпертуры\Complekt2\sketch_dec21a\util\OneWire_direct_regtype.h
+					По датчикам темпертуры\Complekt2\sketch_dec21a\DallasTemperature.cpp
+					По датчикам темпертуры\Complekt2\sketch_dec21a\DallasTemperature.h
+					По датчикам темпертуры\Complekt2\sketch_dec21a\DHT11.cpp
+					По датчикам темпертуры\Complekt2\sketch_dec21a\DHT11.h
+					По датчикам темпертуры\Complekt2\sketch_dec21a\GyverNTC.cpp
+					По датчикам темпертуры\Complekt2\sketch_dec21a\GyverNTC.h
+					По датчикам темпертуры\Complekt2\sketch_dec21a\OneWire.cpp
+					По датчикам темпертуры\Complekt2\sketch_dec21a\OneWire.h
+					По датчикам темпертуры\Complekt2\sketch_dec21a\sketch_dec21a.ino
+				-sketch_oct12a
+					По датчикам темпертуры\Complekt2\sketch_oct12a\sketch_oct12a.ino
+				По датчикам темпертуры\Complekt2\arduino_ds18b20_temperature_sensor.zip
+				По датчикам темпертуры\Complekt2\DallasTemperature.zip
+				По датчикам темпертуры\Complekt2\OneWire.zip
+			По датчикам темпертуры\Arduino 1-Wire Tutorial.lnk
+			По датчикам темпертуры\Arduino и термистор.lnk
+			По датчикам темпертуры\Измерение температуры с помощью терморезистора и Arduino  схема и программа.lnk
 		ByHeart.ppr
 		README.html
 		README.md
 		README.md.backup
 [Open project files]
-0=Новый1.txt
-1=sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.h
-2=sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\OneWire.h
-3=sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.cpp
+0=arduino-same\TestingDigitalPins\TestingDigitalPins.ino
+1=sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByVolAnalyzerDEFAULT\SoundByVolAnalyzerDEFAULT.ino
 [Selected Project Files]
 Main=
-Selected=sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.cpp
-[Новый1.txt]
+Selected=sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByVolAnalyzerDEFAULT\SoundByVolAnalyzerDEFAULT.ino
+[arduino-same\TestingDigitalPins\TestingDigitalPins.ino]
+TopLine=61
+Caret=1,100
+[sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByVolAnalyzerDEFAULT\SoundByVolAnalyzerDEFAULT.ino]
 TopLine=1
-Caret=1,1
-[sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.h]
-TopLine=1
-Caret=1,1
-[sensors\ky-001-modul-cifrovogo-datchika-temperatury\OneWire-2.3.7\OneWire.h]
-TopLine=1
-Caret=1,1
-[sensors\ky-001-modul-cifrovogo-datchika-temperatury\DallasTemperature-3.9.0\DallasTemperature.cpp]
-TopLine=1
-Caret=11,4
+Caret=1,36
