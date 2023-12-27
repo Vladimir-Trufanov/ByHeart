@@ -13,7 +13,13 @@
 
 #### звук:
 
-#### [KY-038 - микрофонный модуль звукового датчика](ky-038-mikrofonnyj-modul-zvukovogo-datchika.md)
+#### [KY-038 - микрофонный модуль звукового датчика](ky-038-mikrofonnyj-modul-zvukovogo-datchika/ky-038-mikrofonnyj-modul-zvukovogo-datchika.md)
+
+#### расстояние:
+
+#### [HC-SR04 – ультразвуковой датчик расстояния](hc-sr04-ultrazvukovoj-datchik-rasstoyaniya/hc-sr04-ultrazvukovoj-datchik-rasstoyaniya.md)
+
+hc-sr04-ultrazvukovoj-datchik-rasstoyaniya/hc-sr04-ultrazvukovoj-datchik-rasstoyaniya
 
 #### температура:
 
@@ -42,6 +48,8 @@
 #### [KY-013 - модуль аналогового датчика температуры](ky-013-modul-analogovogo-datchika-temperatury/ky-013-modul-analogovogo-datchika-temperatury.md)
 
 #### [KY-018 - модуль фоторезистора](ky-018-modul-fotorezistora/ky-018-modul-fotorezistora.md)
+
+#### [KY-038 - микрофонный модуль звукового датчика](ky-038-mikrofonnyj-modul-zvukovogo-datchika/ky-038-mikrofonnyj-modul-zvukovogo-datchika.md)
 
 ---
 
