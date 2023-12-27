@@ -1,57 +1,105 @@
 ### SENSORS, материалы по датчикам
 
 ### По темам
+
+---
+
+#### [В с я к о е - р а з н о е](#%D0%B2%D1%81%D1%8F%D0%BA%D0%BE%D0%B5-%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%B5)
+
+#### [З в у к](#%D0%B7%D0%B2%D1%83%D0%BA)
+
+#### [Р а с с т о я н и е](#%D1%80%D0%B0%D1%81%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5)
+
+#### [Т е м п е р а т у р а](#%D1%82%D0%B5%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0)
+
+#### [Ф о т о р е з и с т о р](#%D1%84%D0%BE%D1%82%D0%BE%D1%80%D0%B5%D0%B7%D0%B8%D1%81%D1%82%D0%BE%D1%80)
+
+#### [Х о л л а](#%D1%85%D0%BE%D0%BB%D0%BB%D0%B0)
+
+---
+
 ### По наименованиям
+
+#### [HC-SR04 – ультразвуковой датчик расстояния](hc-sr04-ultrazvukovoj-datchik-rasstoyaniya/hc-sr04-ultrazvukovoj-datchik-rasstoyaniya.md)
+
+#### [HC-SR501 - инфракрасный датчик присутствия](hc-sr501-infrakrasnyj-datchik-prisutstviya/hc-sr501-infrakrasnyj-datchik-prisutstviya.md)
+
+#### [KY-001 - модуль цифрового датчика температуры](ky-001-modul-cifrovogo-datchika-temperatury/ky-001-modul-cifrovogo-datchika-temperatury.md)
+
+#### [KY-003 - модуль цифрового датчика Холла](ky-003-modul-cifrovogo-datchika-holla/ky-003-modul-cifrovogo-datchika-holla.md)
+
+#### [KY-013 - модуль аналогового датчика температуры](ky-013-modul-analogovogo-datchika-temperatury/ky-013-modul-analogovogo-datchika-temperatury.md)
+
+#### [KY-018 - модуль фоторезистора](ky-018-modul-fotorezistora/ky-018-modul-fotorezistora.md)
+
+#### [KY-032 - модуль дальномера (датчика для избегания препятствий)](ky-032-modul-dalnomera/ky-032-modul-dalnomera.md)
+
+#### [KY-038 - микрофонный модуль звукового датчика](ky-038-mikrofonnyj-modul-zvukovogo-datchika/ky-038-mikrofonnyj-modul-zvukovogo-datchika.md)
+
 
 ---
 
 ### По темам
 
-#### всякое-разное:
+#### всякое-разное :
 
 #### [HC-SR501 - инфракрасный датчик присутствия](hc-sr501-infrakrasnyj-datchik-prisutstviya/hc-sr501-infrakrasnyj-datchik-prisutstviya.md)
 
-#### звук:
+#### звук :
 
 #### [KY-038 - микрофонный модуль звукового датчика](ky-038-mikrofonnyj-modul-zvukovogo-datchika/ky-038-mikrofonnyj-modul-zvukovogo-datchika.md)
 
-#### расстояние:
+#### расстояние :
 
-#### [HC-SR04 – ультразвуковой датчик расстояния](ky-038-mikrofonnyj-modul-zvukovogo-datchika.md)
+#### [HC-SR04 – ультразвуковой датчик расстояния](hc-sr04-ultrazvukovoj-datchik-rasstoyaniya/hc-sr04-ultrazvukovoj-datchik-rasstoyaniya.md)
 
-hc-sr04-ultrazvukovoj-datchik-rasstoyaniya/hc-sr04-ultrazvukovoj-datchik-rasstoyaniya
+#### [KY-032 - модуль дальномера](ky-032-modul-dalnomera/ky-032-modul-dalnomera.md)
 
-#### температура:
+#### температура :
 
 #### [KY-001 - модуль цифрового датчика температуры](ky-001-modul-cifrovogo-datchika-temperatury/ky-001-modul-cifrovogo-datchika-temperatury.md)
 
 #### [KY-013 - модуль аналогового датчика температуры](ky-013-modul-analogovogo-datchika-temperatury/ky-013-modul-analogovogo-datchika-temperatury.md)
 
-#### фоторезистор:
+#### фоторезистор :
 
 #### [KY-018 - модуль фоторезистора](ky-018-modul-fotorezistora/ky-018-modul-fotorezistora.md)
 
-#### Холла:
+#### Холла :
 
 #### [KY-003 - модуль цифрового датчика Холла](ky-003-modul-cifrovogo-datchika-holla/ky-003-modul-cifrovogo-datchika-holla.md)
 
 ---
 
-### По наименованиям
+1
 
-#### [HC-SR501 - инфракрасный датчик присутствия](hc-sr501-infrakrasnyj-datchik-prisutstviya/hc-sr501-infrakrasnyj-datchik-prisutstviya.md)
+2
 
-#### [KY-001 - модуль цифрового датчика температуры](ky-001-modul-cifrovogo-datchika-temperatury/ky-001-modul-cifrovogo-datchika-temperatury.md)
+3
 
-#### [KY-003 - модуль цифрового датчика Холла](ky-003-modul-cifrovogo-datchika-holla/ky-003-modul-cifrovogo-datchika-holla.md)
+4
 
-#### [KY-013 - модуль аналогового датчика температуры](ky-013-modul-analogovogo-datchika-temperatury/ky-013-modul-analogovogo-datchika-temperatury.md)
+5
 
-#### [KY-018 - модуль фоторезистора](ky-018-modul-fotorezistora/ky-018-modul-fotorezistora.md)
+6
 
-#### [KY-038 - микрофонный модуль звукового датчика](ky-038-mikrofonnyj-modul-zvukovogo-datchika/ky-038-mikrofonnyj-modul-zvukovogo-datchika.md)
+7
 
----
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
 
 ###### [к содержанию](../README.md)
 

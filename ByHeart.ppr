@@ -5157,6 +5157,20 @@ ByHeart
 				homemade\Как управлять освещением с помощью ИК пульта\Как управлять освещением с помощью ИК-пульта.mp4
 			homemade\HomeMade.md
 			homemade\HomeMade.md.backup
+		+leds
+			-ky-011-modul-dvuhcvetnogo-svetodioda-5-mm
+				leds\ky-011-modul-dvuhcvetnogo-svetodioda-5-mm\ky-011-modul-dvuhcvetnogo-svetodioda-5-mm.md
+				leds\ky-011-modul-dvuhcvetnogo-svetodioda-5-mm\ky-011-modul-dvuhcvetnogo-svetodioda-5-mm.md.backup
+			+ky-029-modul-dvuhcvetnogo-svetodioda-3-mm
+				leds\ky-029-modul-dvuhcvetnogo-svetodioda-3-mm\KY-011_fritzing-1-172x300.webp
+				leds\ky-029-modul-dvuhcvetnogo-svetodioda-3-mm\KY-011_schema-1.webp
+				leds\ky-029-modul-dvuhcvetnogo-svetodioda-3-mm\KY-029.webp
+				leds\ky-029-modul-dvuhcvetnogo-svetodioda-3-mm\KY-029_connection_to_Arduino.webp
+				leds\ky-029-modul-dvuhcvetnogo-svetodioda-3-mm\ky-029-modul-dvuhcvetnogo-svetodioda-3-mm.md
+				leds\ky-029-modul-dvuhcvetnogo-svetodioda-3-mm\ky-029-modul-dvuhcvetnogo-svetodioda-3-mm.md.backup
+				leds\ky-029-modul-dvuhcvetnogo-svetodioda-3-mm\led_bicolore.webp
+			leds\leds.md
+			leds\leds.md.backup
 		-myheart
 			-01-Examp1
 				myheart\01-Examp1\Examp1.fzz
@@ -5183,7 +5197,27 @@ ByHeart
 				myheart\WiFiWebClient\WiFiWebClient.ino
 			myheart\MyHeart.md
 			myheart\MyHeart.md.backup
-		+sensors
+		-sensors
+			-hc-sr04-ultrazvukovoj-datchik-rasstoyaniya
+				-PollingByNewPing
+					sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\PollingByNewPing\NewPing.cpp
+					sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\PollingByNewPing\NewPing.h
+					sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\PollingByNewPing\PollingByNewPing.ino
+				-PollingOnTemperature
+					sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\PollingOnTemperature\PollingOnTemperature.ino
+				-PollingUsingArduino
+					sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\PollingUsingArduino\PollingUsingArduino.ino
+				-PollingWithDataFiltering
+					sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\PollingWithDataFiltering\PollingWithDataFiltering.ino
+				sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\HC-SR04 Datasheet.pdf
+				sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\HCSR042.png
+				sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\HC-SR04-master.zip
+				sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya.md
+				sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya.md.backup
+				sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\NewPing-1.9.7.zip
+				sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\PollingUsingKorr.jpg
+				sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\soundspeed.png
+				sensors\hc-sr04-ultrazvukovoj-datchik-rasstoyaniya\sr04.png
 			-hc-sr501-infrakrasnyj-datchik-prisutstviya
 				sensors\hc-sr501-infrakrasnyj-datchik-prisutstviya\hc-sr501-infrakrasnyj-datchik-prisutstviya.md
 				sensors\hc-sr501-infrakrasnyj-datchik-prisutstviya\hc-sr501-infrakrasnyj-datchik-prisutstviya.md.backup
@@ -5232,13 +5266,24 @@ ByHeart
 					sensors\ky-018-modul-fotorezistora\KY-018 Fritzing\keyes-photo-resistor.png
 					sensors\ky-018-modul-fotorezistora\KY-018 Fritzing\KY-018-keyes-photo-resistor.fzpz
 				sensors\ky-018-modul-fotorezistora\ky-018-modul-fotorezistora.md
-			+ky-038-mikrofonnyj-modul-zvukovogo-datchika
+			-ky-032-modul-dalnomera
+				-KY-032_infrared_obstacle_avoidance_sensor_module[arduinomodules.info]
+					sensors\ky-032-modul-dalnomera\KY-032_infrared_obstacle_avoidance_sensor_module[arduinomodules.info]\KY-032 IR Obstacle Avoidance Sensor Module.fzpz
+					sensors\ky-032-modul-dalnomera\KY-032_infrared_obstacle_avoidance_sensor_module[arduinomodules.info]\Readme.txt
+				sensors\ky-032-modul-dalnomera\Datchik-dlya-izbeganiya-prepyatstvij-KY-032.jpg
+				sensors\ky-032-modul-dalnomera\ky-032.svg
+				sensors\ky-032-modul-dalnomera\KY-032_IR_obstacle_avoidance_sensor_custom_part_image-900x0.png
+				sensors\ky-032-modul-dalnomera\ky-032-modul-dalnomera.md
+				sensors\ky-032-modul-dalnomera\ky-032-modul-dalnomera.md.backup
+				sensors\ky-032-modul-dalnomera\KY-032-sensor.webp
+				sensors\ky-032-modul-dalnomera\Настройка модуля дальномера KY-032.mp4
+			-ky-038-mikrofonnyj-modul-zvukovogo-datchika
 				-address_LED_strip
 					sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\address_LED_strip\address_LED_strip.ino
 				-SoundByAnalogReferenceDEFAULT
 					sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByAnalogReferenceDEFAULT\SoundByAnalogReferenceDEFAULT.ino
 					sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByAnalogReferenceDEFAULT\SoundByAnalogReferenceDEFAULT.jpg
-				+SoundByVolAnalyzerDEFAULT
+				-SoundByVolAnalyzerDEFAULT
 					sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByVolAnalyzerDEFAULT\SoundByVolAnalyzerDEFAULT.ino
 					sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByVolAnalyzerDEFAULT\VolAnalyzer.h
 				sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\32e177d1e23e43c8df7954c876bac14e.png
@@ -6495,13 +6540,13 @@ ByHeart
 		README.md.backup
 [Open project files]
 0=arduino-same\TestingDigitalPins\TestingDigitalPins.ino
-1=sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByVolAnalyzerDEFAULT\SoundByVolAnalyzerDEFAULT.ino
+1=leds\ky-029-modul-dvuhcvetnogo-svetodioda-3-mm\KY-029-red-green\KY-029-red-green.ino
 [Selected Project Files]
 Main=
-Selected=sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByVolAnalyzerDEFAULT\SoundByVolAnalyzerDEFAULT.ino
+Selected=leds\ky-029-modul-dvuhcvetnogo-svetodioda-3-mm\KY-029-red-green\KY-029-red-green.ino
 [arduino-same\TestingDigitalPins\TestingDigitalPins.ino]
-TopLine=61
+TopLine=59
 Caret=1,100
-[sensors\ky-038-mikrofonnyj-modul-zvukovogo-datchika\SoundByVolAnalyzerDEFAULT\SoundByVolAnalyzerDEFAULT.ino]
-TopLine=1
-Caret=1,36
+[leds\ky-029-modul-dvuhcvetnogo-svetodioda-3-mm\KY-029-red-green\KY-029-red-green.ino]
+TopLine=22
+Caret=45,17
