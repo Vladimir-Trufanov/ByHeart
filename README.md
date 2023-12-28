@@ -13,6 +13,8 @@
 
 ### [MYHEART, примеры и эксперименты для души, для сердца](myheart/MyHeart.md)
 
+### [LEDS, светодиоды и ленты](leds/leds.md)
+
 ### [SENSORS, материалы по датчикам](sensors/Sensors.md)
 
 ### [TRANSISTORS, всё про транзисторы](transistors/Transistors.md)
