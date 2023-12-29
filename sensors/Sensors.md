@@ -8,6 +8,8 @@
 
 #### [З в у к](#%D0%B7%D0%B2%D1%83%D0%BA)
 
+#### [П р и ё м - с и г н а л о в](#%D0%BF%D1%80%D0%B8%D1%91%D0%BC-%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2)
+
 #### [Р а с с т о я н и е](#%D1%80%D0%B0%D1%81%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5)
 
 #### [Т е м п е р а т у р а](#%D1%82%D0%B5%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0)
@@ -32,6 +34,8 @@
 
 #### [KY-018 - модуль фоторезистора](ky-018-modul-fotorezistora/ky-018-modul-fotorezistora.md)
 
+#### [KY-022 - модуль ИК - приёмника](ky-022-modul-ik-priyomnika/ky-022-modul-ik-priyomnika.md)
+
 #### [KY-032 - модуль дальномера (датчика для избегания препятствий)](ky-032-modul-dalnomera/ky-032-modul-dalnomera.md)
 
 #### [KY-038 - микрофонный модуль звукового датчика](ky-038-mikrofonnyj-modul-zvukovogo-datchika/ky-038-mikrofonnyj-modul-zvukovogo-datchika.md)
@@ -48,6 +52,10 @@
 #### звук :
 
 #### [KY-038 - микрофонный модуль звукового датчика](ky-038-mikrofonnyj-modul-zvukovogo-datchika/ky-038-mikrofonnyj-modul-zvukovogo-datchika.md)
+
+#### приём-сигналов :
+
+#### [KY-022 - модуль ИК - приёмника](ky-022-modul-ik-priyomnika/ky-022-modul-ik-priyomnika.md)
 
 #### расстояние :
 
