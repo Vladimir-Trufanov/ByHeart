@@ -57,5 +57,4 @@ FF8877   — зеленая стрелочка вниз
 
 #### [Небольшой обзор большой библиотеки IRremote для управления по ИК каналу](obzor-biblioteki-irremote/obzor-biblioteki-irremote.md)
 
-Частичный обзор библиотеки IRremote для среды Arduino IDE. Ссылка на гитхаб [https://github.com/Arduino-IRremote/Arduino-IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote). В статье представлен обзор по версии библиотеки [3.5.2](obzor-biblioteki-irremote/IRremote 3.5.2/README.md).
-
+Частичный обзор библиотеки IRremote для среды Arduino IDE. Ссылка на гитхаб [https://github.com/Arduino-IRremote/Arduino-IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote). В статье представлен обзор по версии библиотеки [3.5.2](obzor-biblioteki-irremote/obzor-biblioteki-irremote.md).
