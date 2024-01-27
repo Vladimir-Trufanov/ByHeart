@@ -5,6 +5,8 @@
 
 ###### soderzhanie
 
+### [Arduino UNO, как программатор](arduino-uno-kak-programmator/arduino-uno-kak-programmator.md)
+
 ### [DISPLAYS, OLED и другие дисплеи](displays/displays.md)
 
 ### [ESP32-CAM, библиотека и примеры для версии 1.0.6](esp32v106/ESP32v106.md)
