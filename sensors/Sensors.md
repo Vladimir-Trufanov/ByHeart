@@ -40,6 +40,7 @@
 
 #### [KY-038 - микрофонный модуль звукового датчика](ky-038-mikrofonnyj-modul-zvukovogo-datchika/ky-038-mikrofonnyj-modul-zvukovogo-datchika.md)
 
+#### [MAX9814 Electret - модуль усилителя микрофона](max9814-electret-modul-usilitelya-mikrofona/max9814-electret-modul-usilitelya-mikrofona.md)
 
 ---
 
@@ -52,6 +53,9 @@
 #### звук :
 
 #### [KY-038 - микрофонный модуль звукового датчика](ky-038-mikrofonnyj-modul-zvukovogo-datchika/ky-038-mikrofonnyj-modul-zvukovogo-datchika.md)
+
+#### [MAX9814 Electret - модуль усилителя микрофона](max9814-electret-modul-usilitelya-mikrofona/max9814-electret-modul-usilitelya-mikrofona.md)
+
 
 #### приём-сигналов :
 
