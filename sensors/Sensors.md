@@ -22,6 +22,8 @@
 
 ### По наименованиям
 
+#### [APDS-9960 - датчик жестов, приближения, освещенности, цвета](apds-9960-datchik-zhestov-priblizheniya-osveshchennosti-cveta/apds-9960-datchik-zhestov-priblizheniya-osveshchennosti-cveta.md)
+
 #### [HC-SR04 – ультразвуковой датчик расстояния](hc-sr04-ultrazvukovoj-datchik-rasstoyaniya/hc-sr04-ultrazvukovoj-datchik-rasstoyaniya.md)
 
 #### [HC-SR501 - инфракрасный датчик присутствия](hc-sr501-infrakrasnyj-datchik-prisutstviya/hc-sr501-infrakrasnyj-datchik-prisutstviya.md)
@@ -63,6 +65,8 @@
 
 #### расстояние :
 
+#### [APDS-9960 - датчик жестов, приближения, освещенности, цвета](apds-9960-datchik-zhestov-priblizheniya-osveshchennosti-cveta/apds-9960-datchik-zhestov-priblizheniya-osveshchennosti-cveta.md)
+
 #### [HC-SR04 – ультразвуковой датчик расстояния](hc-sr04-ultrazvukovoj-datchik-rasstoyaniya/hc-sr04-ultrazvukovoj-datchik-rasstoyaniya.md)
 
 #### [KY-032 - модуль дальномера (датчика для избегания препятствий)](ky-032-modul-dalnomera/ky-032-modul-dalnomera.md)
@@ -73,7 +77,9 @@
 
 #### [KY-013 - модуль аналогового датчика температуры](ky-013-modul-analogovogo-datchika-temperatury/ky-013-modul-analogovogo-datchika-temperatury.md)
 
-#### фоторезистор :
+#### фоторезистор, цвета :
+
+#### [APDS-9960 - датчик жестов, приближения, освещенности, цвета](apds-9960-datchik-zhestov-priblizheniya-osveshchennosti-cveta/apds-9960-datchik-zhestov-priblizheniya-osveshchennosti-cveta.md)
 
 #### [KY-018 - модуль фоторезистора](ky-018-modul-fotorezistora/ky-018-modul-fotorezistora.md)
 
