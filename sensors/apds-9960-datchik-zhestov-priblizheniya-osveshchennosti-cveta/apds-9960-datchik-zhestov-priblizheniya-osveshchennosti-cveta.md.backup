@@ -1,6 +1,10 @@
 ### [APDS-9960](https://www.sparkfun.com/products/12787)
 ### Датчик жестов, приближения, освещенности, цвета
 
+#### [Распознавание жестов с помощью APDS-9960](https://habr.com/ru/articles/424947/)
+
+#### [Распознавание цвета и уровня освещенности с помощью APDS-9960]()
+
 ![](APDS9960.jpeg)
 
 Датчик APDS-9960 обеспечивает измерение окружающего света и цвета, определяет приближение и бесконтактно распознаёт жесты, это один из лучших датчиков жестов на рынке по цене.
@@ -46,7 +50,7 @@ INT	  Вывод внешнего прерывания. Активен при Н
 
 ![](soedinenie.jpeg)
 
-Для работы с датчиком следует подключить библиотеку ***SparkFun_APDS9960*** из каталога APDS-9960_RGB_and_Gesture_Sensor_Arduino_Library.
+Для работы с датчиком следует подключить [библиотеку](https://github.com/sparkfun/APDS-9960_RGB_and_Gesture_Sensor/archive/master.zip) ***SparkFun_APDS9960*** из каталога APDS-9960_RGB_and_Gesture_Sensor_Arduino_Library.
 
 Как пример распознавания жестов используйте пример ***GestureTest*** из библиотеки:
 ```
@@ -225,8 +229,6 @@ void handleGesture() {
 [Техническое описание APDS-9960](Avago-APDS-9960-datasheet.pdf)
 
 [Библиотека для APDS-9960 RGB и датчика жестов](https://github.com/sparkfun/SparkFun_APDS-9960_Sensor_Arduino_Library/tree/V_1.4.2)
-
-https://github.com/sparkfun/APDS-9960_RGB_and_Gesture_Sensor/archive/master.zip
 
 [Весь репозиторий APDS-9960 RGB и датчика жестов на GitHub](https://github.com/sparkfun/APDS-9960_RGB_and_Gesture_Sensor)
 
