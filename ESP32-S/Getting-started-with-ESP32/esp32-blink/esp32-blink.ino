@@ -1,6 +1,6 @@
 /*
-  ESP32 Blink
-  esp32-blink.ino
+  esp32-blink.ino                2024.02.03
+  -----------------------------------------
   Rewrite of classic Blink sketch for ESP32
   Use LED on GPIO2
    
@@ -25,10 +25,10 @@ void loop()
     Serial.print("Hello");
     digitalWrite(ledPin, HIGH);
     
-    delay(500);
+    delay(1000);
     
     Serial.println(" world!");
     digitalWrite(ledPin, LOW);
     
-    delay(500);
+    delay(1000);
 }
