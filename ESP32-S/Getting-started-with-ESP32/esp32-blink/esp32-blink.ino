@@ -22,13 +22,11 @@ void setup()
  
 void loop()
 {
-    Serial.print("Hello");
+    delay(1000);
+    Serial.print("Привет");
     digitalWrite(ledPin, HIGH);
-    
-    delay(1000);
-    
-    Serial.println(" world!");
+    delay(500);
+    Serial.println(" мир!");
     digitalWrite(ledPin, LOW);
-    
-    delay(1000);
+    delay(500);
 }
