@@ -1,2 +1,5 @@
 ### HC-SR501
 ### Инфракрасный датчик присутствия
+
+### [Обзор инфракрасного датчика движения HC-SR501](https://robotchip.ru/obzor-infrakrasnogo-datchika-dvizheniya-hc-sr501/)
+
