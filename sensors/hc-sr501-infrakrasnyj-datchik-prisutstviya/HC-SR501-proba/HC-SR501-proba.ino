@@ -1,7 +1,5 @@
 /* 
-Тестировалось на Arduino IDE 1.8.0
-Дата тестирования 12.08.2016г.
-
+По мотивам статьи:+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 https://robotchip.ru/obzor-infrakrasnogo-datchika-dvizheniya-hc-sr501/
 
 В примере подключается HC-SR501 к Arduino. В качестве индикации используются три светодиода, 
@@ -14,12 +12,13 @@ https://robotchip.ru/obzor-infrakrasnogo-datchika-dvizheniya-hc-sr501/
 Вместо светодиода, можно управлять внешним выходом (например, модулем реле)
 */ 
 
-int detectedLED = 13;                // пин желтого - датчик готов к обнаружению движения
-int readyLED = 12;                   // пин зеленого - светодиод горит в течение 3 секунд при срабатывании датчика
 int waitLED = 11;                    // пин красного - датчик не готов
+int readyLED = 12;                   // пин желтого - датчик готов к обнаружению движения          
+int detectedLED = 13;                // пин зеленого - светодиод горит в течение 3 секунд при срабатывании датчика
 
 int pirPin = 7;                      // пин сигнального контакта датчика 
-int motionDetected = 0;              // переменная для обнаружения движения
+int sensorReady = 0;                 // флаг готовности датчика к обнаружению движения
+int motionDetected = 0;              // флаг обнаруженного движения
 int pirValue;                        // переменная для сохранения значения из PIR
 
 void setup() 
@@ -29,49 +28,42 @@ void setup()
   pinMode(waitLED, OUTPUT);          // 
   pinMode(pirPin, INPUT);            // установили пин датчика, как вход
   // Выполняем начальную задержку в 1 минуту для стабилизации датчика
-  digitalWrite(detectedLED, LOW);    // погасили желтый
-  digitalWrite(readyLED, LOW);       // погасили зеленый
+  digitalWrite(detectedLED, LOW);    // погасили зеленый
+  digitalWrite(readyLED, LOW);       // погасили желтый
   digitalWrite(waitLED, HIGH);       // зажгли красный
-  delay(60000);
-  // Минута прошла, зажигаем зеленый, гасим красный
+  delay(15000);
+  // Минута прошла, зажигаем желтый, гасим красный
   digitalWrite(readyLED, HIGH);
   digitalWrite(waitLED, LOW);
+  sensorReady = 1;                   // подняли флаг готовности датчика к обнаружению движения
 }
 
 void loop() 
 {
-  pirValue = digitalRead(pirPin);    // считали значение датчика движения
-  // Если движение есть, делаем задержку в 3 сек
-  if (pirValue == 1)                 
-  {               
-    digitalWrite(detectedLED, HIGH);
-    motionDetected = 1;
-    delay(3000);
-  } 
-  /*
-  pirValue = digitalRead(pirPin);    // считали значение датчика движения
-  // Если движение есть, делаем задержку в 3 сек
-  if (pirValue == 1)                 
-  {               
-    digitalWrite(detectedLED, HIGH);
-    motionDetected = 1;
-    delay(3000);
-  } 
-  else 
+  // Если датчику разрешено обнаруживать движение, считываем его значение
+  if (sensorReady == 1)                 
   {
-    digitalWrite(detectedLED, LOW);
+    pirValue = digitalRead(pirPin);    // считали значение датчика движения
+    // Если движение есть, то зажигаем зеленый светодиод и делаем задержку в 3 сек
+    if (pirValue == 1)                 
+    { 
+      // Сбрасываем флаг готовности датчика движения и гасим желтую лампочку
+      sensorReady = 0;
+      digitalWrite(readyLED, LOW);    
+      // Зажигаем зеленую лампочу, устанавливаем флаг               
+      digitalWrite(detectedLED, HIGH);
+      motionDetected = 1;
+      delay(3000);
+      // Сбрасываем флаг, гасим зеленый
+      motionDetected = 0;
+      digitalWrite(detectedLED, LOW);
+      // Зажигаем красный
+      digitalWrite(waitLED, HIGH); 
+      // Ждем пол-минутки и разрешаем обнаруживать движение      
+      delay(15000);
+      digitalWrite(readyLED, HIGH);
+      digitalWrite(waitLED, LOW);
+      sensorReady = 1;                   // подняли флаг готовности датчика к обнаружению движения
+    } 
   }
-
-  // Если сработал датчик, делаем задержку в 6 сек
-  if (motionDetected == 1)
-  {
-    digitalWrite(detectedLED, LOW);
-    digitalWrite(readyLED, LOW);
-    digitalWrite(waitLED, HIGH);
-    delay(6000);
-    digitalWrite(readyLED, HIGH);
-    digitalWrite(waitLED, LOW);
-    motionDetected = 0;
-  }
-  */
 }
