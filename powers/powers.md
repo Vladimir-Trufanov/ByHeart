@@ -1,6 +1,46 @@
 ## POWERD, элементы и модули питания
 
+### 18650 - аккумуляторы и модули питания
+
+### Ni-Zn AA-A - аккумуляторы и зарядные устройства
+
 ---
+
+### Ni-Zn AA-A - аккумуляторы и зарядные устройства
+
+### [PKCELL Battery with NIZN Battery Charger for AAA/AA Batteries]()
+
+---
+
+### [PKCELL Battery with NIZN Battery Charger for AAA/AA Batteries](https://aliexpress.ru/item/1005005247641785.html?spm=a2g2w.orderdetail.0.0.31d44aa687tga3&sku_id=12000033308163600)
+
+***2024-08-29 в [Pkcell Store](https://aliexpress.ru/store/918700?g=y&page=1&searchInfo=search&spm=a2g2w.detail.0.0.42295e86Rp5RkB)***
+
+![](ni-zn-rechargeable-batteries.webp)
+
+Характеристики
+
+```
+Название бренда      Pkcell
+Номер модели         AA Rechargeable Battery
+Происхождение        Китай
+Режимы работы        NIZN
+Размер               AA
+Сертификация         Евротест (СЕ)
+Номинальная емкость  1500 мАч
+Количество батарей   4 aa battery and nizn charger
+Chemical Composition Nickel Zinc
+Charge Cycles        Over 1000Cycles
+Dimension            Diameter:14.5mm*Height:50.5mm
+Standard Charge      0.5C to 1C in Amps to 1.9V/cell taper charge and cut-off
+Capacity Typical     2500mWhrs~Minimun:2250mWhrs
+Nominal Voltage      1.6V
+Nominal Capacity     2500mWh
+charger              NIZN AA/AAA battery charger
+Application          Specially designed for digital camera,CD,Game machine,toy,Flashlight
+```
+---
+### 18650 - аккумуляторы и модули питания
 
 ### [Аккумулятoрная батарея 18650 - 3400 мАч - 3,7 в](#%D0%B0%D0%BA%D0%BA%D1%83%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D0%B1%D0%B0%D1%82%D0%B0%D1%80%D0%B5%D1%8F-18650---3400-%D0%BC%D0%B0%D1%87---37-%D0%B2)
 
