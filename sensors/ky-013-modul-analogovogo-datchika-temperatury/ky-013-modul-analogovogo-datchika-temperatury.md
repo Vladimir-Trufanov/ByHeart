@@ -1,4 +1,5 @@
 ### [KY-013](https://rxtx.su/mikrokontrollery/arduino/moduli-i-datchiki-k-arduino/modul-analogovogo-datchika-temperatury-ntc-termistor-ky-013/)
+
 ### Модуль аналогового датчика температуры
 
 ![](ky-013-1.webp)
