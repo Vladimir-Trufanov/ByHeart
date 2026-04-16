@@ -4,3 +4,6 @@
 
 ### [Распиновка USB по цветам: 4 вида разъемов, схемы распайки](https://security-master.ru/news/raspinovka_usb_po_tsvetam/?ysclid=mnlgimcl8i29970498)
 
+![](USB-Гнездо-Мама-Штекер-Папа.jpg)
+
+![](USB20-mini-micro.png)
