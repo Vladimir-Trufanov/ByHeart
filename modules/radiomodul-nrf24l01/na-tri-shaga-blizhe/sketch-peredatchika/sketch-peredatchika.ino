@@ -2,7 +2,7 @@
 // *                                                                          *
 // * Передатчик                                                               *
 // *                                                                          *
-// * v1.0, 09.04.2024                              Автор:       Труфанов В.Е. *
+// * v1.0.1, 05.05.2026                            Автор:       Труфанов В.Е. *
 // * Copyright © 2024 tve                          Дата создания:  09.04.2024 *
 // ****************************************************************************
 
@@ -24,7 +24,7 @@
 
 #include <SPI.h>
 #include <RF24.h>
-RF24 radio(9, 10);                // порты D9, D10: CSN CE
+RF24 radio(6,7);                 
 const uint32_t pipe = 111156789;  // адрес рабочей трубы;
 
 byte data;
@@ -46,9 +46,13 @@ void setup()
   radio.openWritingPipe(pipe);    // открыть трубу на отправку
 }
 
-void loop() {
+void loop() 
+{
+  
   data = 109;
   radio.write(&data, 1);
-  Serial.println("data= " + String(data));
+  //Serial.println("data= " + String(data));
+  //delay(1000);
+  
 }
 // ************************************************ sketch-peredatchika.ino ***
