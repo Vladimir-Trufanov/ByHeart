@@ -51,8 +51,8 @@ void loop()
   
   data = 109;
   radio.write(&data, 1);
-  //Serial.println("data= " + String(data));
-  //delay(1000);
+  Serial.println("data= " + String(data));
+  delay(1000);
   
 }
 // ************************************************ sketch-peredatchika.ino ***
