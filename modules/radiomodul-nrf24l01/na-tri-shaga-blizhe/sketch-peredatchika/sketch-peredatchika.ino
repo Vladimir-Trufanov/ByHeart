@@ -2,7 +2,7 @@
 // *                                                                          *
 // * Передатчик                                                               *
 // *                                                                          *
-// * v1.0.1, 05.05.2026                            Автор:       Труфанов В.Е. *
+// * v1.0.2, 08.05.2026                            Автор:       Труфанов В.Е. *
 // * Copyright © 2024 tve                          Дата создания:  09.04.2024 *
 // ****************************************************************************
 
@@ -25,7 +25,7 @@
 #include <SPI.h>
 #include <RF24.h>
 RF24 radio(6,7);                 
-const uint32_t pipe = 111156789;  // адрес рабочей трубы;
+const uint32_t pipe = 111156789; // адрес рабочей трубы;
 
 byte data;
 
@@ -34,25 +34,23 @@ void setup()
   Serial.begin(115200);
   Serial.println("TransmitterTester ON");
 
-  radio.begin();                  // инициализация
+  radio.begin();                // инициализация
   delay(2000);
-  radio.setDataRate(RF24_1MBPS);  // скорость обмена данными RF24_1MBPS или RF24_2MBPS
+  radio.setDataRate(RF24_1MBPS); // скорость обмена данными RF24_1MBPS или RF24_2MBPS
   radio.setCRCLength(RF24_CRC_8); // размер контрольной суммы 8 bit или 16 bit
-  radio.setPALevel(RF24_PA_MAX);  // уровень питания усилителя RF24_PA_MIN, RF24_PA_LOW, RF24_PA_HIGH and RF24_PA_MAX
+  radio.setPALevel(RF24_PA_MAX); // уровень питания усилителя RF24_PA_MIN, RF24_PA_LOW, RF24_PA_HIGH and RF24_PA_MAX
   radio.setChannel(0x6f);         // установка канала
-  radio.setAutoAck(false);        // автоответ
-  radio.powerUp();                // включение или пониженное потребление powerDown - powerUp
-  radio.stopListening();          // радиоэфир не слушаем, только передача
-  radio.openWritingPipe(pipe);    // открыть трубу на отправку
+  radio.setAutoAck(false);       // автоответ
+  radio.powerUp();               // включение или пониженное потребление powerDown - powerUp
+  radio.stopListening();  //радиоэфир не слушаем, только передача
+  radio.openWritingPipe(pipe);   // открыть трубу на отправку
 }
 
 void loop() 
 {
-  
   data = 109;
   radio.write(&data, 1);
   Serial.println("data= " + String(data));
-  delay(1000);
-  
 }
+
 // ************************************************ sketch-peredatchika.ino ***
