@@ -10,7 +10,7 @@
 #include <nRF24L01.h> 
 #include <RF24.h>     
 
-RF24 radio(6,7);      // укаали номера выводов nRF24L01: CE и CSN
+RF24 radio(6,7);      // указали номера выводов nRF24L01: CE и CSN
 
 // const uint32_t pipe = 111156789; // адрес "трубы" - адрес приёмника
 const uint32_t pipe = 0x7878787878; // адрес "трубы" - адрес приёмника
@@ -20,11 +20,12 @@ void setup()
    while (!Serial);        // для Leonardo и т. п. плат ждёт пока откроем монитор порта
    Serial.begin(9600);     // установили скор. обмена данными 9600 бод
    radio.begin();          // инициировали работу nRF24L01
-   radio.setChannel(0x6f); // устанавили канал
+   radio.setChannel(0x6f); // установили канал
 
    radio.openReadingPipe(0, pipe); // открыли "трубу" чтения
    radio.startListening();         // начали прослушивать
-}
+   Serial.println("");
+}            
 
 void loop() 
 {
