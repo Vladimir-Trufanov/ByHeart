@@ -6,7 +6,7 @@
 
 #### [ЖК-дисплей 1602A LCD с конвертером в IIC/I2C](zhk-displej-1602a-lcd-s-konverterom-v-iici2c/zhk-displej-1602a-lcd-s-konverterom-v-iici2c.md)
 
-#### [HMI дисплей 240x320 с резистивным сенсором - ESP32-2432S028R](hmi-displej-240x320-s-rezistivnym-sensorom-esp32-2432s028r/hmi-displej-240x320-s-rezistivnym-sensorom-esp32-2432s028r.md)
+#### [HMI дисплей 240x320 с резистивным сенсором - ESP32-2432S028R](ESP32-2432S028/ESP32-2432S028.md)
 
 ---
 
