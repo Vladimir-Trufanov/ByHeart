@@ -19,11 +19,18 @@ void setup()
         while (1) yield();
     }  
 
-    tft.loadFont("nasalization48"); // загрузка в память шрифта
-    tft.setCursor(40, 150);
+    //tft.loadFont("nasalization48"); // загрузка в память шрифта
+    tft.loadFont("HuaweiSans16");     // загрузка в память шрифта
+    tft.setCursor(10, 90);
     tft.setTextColor(TFT_ORANGE, TFT_BLACK);
     tft.println("ВНИМАНИЕ!");
-    tft.unloadFont(); // выгрузка шрифта из памяти
+    tft.unloadFont();                 // выгрузка шрифта из памяти
+
+    tft.loadFont("HuaweiSans24");     // загрузка в память шрифта
+    tft.setCursor(10, 150);
+    tft.setTextColor(TFT_ORANGE, TFT_BLACK);
+    tft.println("ВНИМАНИЕ!");
+    tft.unloadFont();                 // выгрузка шрифта из памяти
 }
 
 void loop() 
