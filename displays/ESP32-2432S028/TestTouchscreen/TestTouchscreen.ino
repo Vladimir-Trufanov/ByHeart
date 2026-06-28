@@ -50,7 +50,8 @@ void printTouchToSerial(int touchX, int touchY, int touchZ) {
   Serial.print(touchX);
   Serial.print(" | Y = ");
   Serial.print(touchY);
-  Serial.print(" | Pressure = ");
+  //Serial.print(" | Pressure = ");
+  Serial.print(" | Нажми Place");
   Serial.print(touchZ);
   Serial.println();
 }
@@ -100,6 +101,7 @@ void setup() {
   int centerY = SCREEN_HEIGHT / 2;
 
   tft.drawCentreString("Hello, world!", centerX, 30, FONT_SIZE);
+  //tft.drawCentreString("Привет, world!", centerX, 30, FONT_SIZE);
   tft.drawCentreString("Touch screen to test", centerX, centerY, FONT_SIZE);
 }
 
